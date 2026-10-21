@@ -1,0 +1,11 @@
+
+Deprecated: Using ${expr} (variable variables) in strings is deprecated, use {${expr}} instead in {DIR}/r5_syntax3_29.php on line 7
+HOOK:strtoupperRepl\Thing
+HOOK:strtoupper
+) ] } HOOK:strtoupper strtoupper { [Repl\Thing
+inline ) ] } ( [ {
+HOOK:strtoupper Repl\Thing
+HOOK:strtoupper
+ html ) } ] Repl\Thing
+x ( [ {
+HOOK:strtoupperrepl

@@ -1,0 +1,11 @@
+HOOK:strtoupper
+HOOK:fopen
+HOOK:strtoupper
+HOOK:strtoupper
+inv(e) inv(f)
+HOOK:strtoupper HOOK:strtoupper
+s(i) s(j) s(k)
+HOOK:strtoupper HOOK:strtoupper
+HOOK:strtoupperHOOK:fopen
+30
+yes

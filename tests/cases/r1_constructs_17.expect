@@ -1,0 +1,13 @@
+int(1)
+ValueError: Path must not be empty
+W: Array to string conversion @7
+W: include(Array): Failed to open stream: No such file or directory @7
+W: include(): Failed opening 'Array' for inclusion (include_path='.:/usr/share/php') @7
+bool(false)
+W: include_once(1.5): Failed to open stream: No such file or directory @8
+W: include_once(): Failed opening '1.5' for inclusion (include_path='.:/usr/share/php') @8
+bool(false)
+bool(false)
+int(5)
+ParseError: syntax error, unexpected end of file
+end

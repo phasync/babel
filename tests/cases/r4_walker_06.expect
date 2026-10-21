@@ -1,0 +1,19 @@
+
+Deprecated: The backtick (`) operator is deprecated, use shell_exec() instead in {DIR}/r4_walker_06.php on line 14
+
+Deprecated: Using ${var} in strings is deprecated, use {$var} instead in {DIR}/r4_walker_06.php on line 16
+1 Repl\Thing HOOK:strtoupper Repl\Thing Repl\Thing
+2 Repl\Thing | Repl\Thing
+3 HOOK:strtoupper HOOK:strtoupper
+Repl\Thing-HOOK:strtoupper
+4 Repl\Thing HOOK:strtoupper
+5 strtoupper
+6 strtoupper
+7 Orig\Thing s strtoupper
+8 HOOK:strtoupper strtoupper
+9 HOOK:strtoupperHOOK:strtoupper
+10 xRepl\Thingy
+11 eq
+12 0
+13 0
+14 Hr

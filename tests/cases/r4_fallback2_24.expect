@@ -1,0 +1,3 @@
+HOOK:strtoupper HOOK:fopen
+Other:up HOOK:fopen
+Other:up HOOK:fopen

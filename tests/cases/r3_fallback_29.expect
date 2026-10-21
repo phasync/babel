@@ -1,0 +1,3 @@
+local-fgc
+exists
+local-fgc App\file_get_contents

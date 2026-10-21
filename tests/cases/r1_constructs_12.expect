@@ -1,0 +1,11 @@
+["HOOK:fopen","r1_inc_a.php","fixtures",2,"","L"]
+R1\Inc:HOOK:fopen:HOOK:strtoupper:HOOK:strtoupper
+R1\Inc:HOOK:fopen:HOOK:strtoupper:HOOK:strtoupper
+A\B
+before HOOK:fopeninline HOOK:sleep html
+ line 4
+after
+
+[11,11,"HOOK:usleep"]
+5
+66HOOK:usleep

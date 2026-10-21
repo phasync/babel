@@ -1,0 +1,2 @@
+<?phpecho __LINE__, "\n";echo fopen("a"), __LINE__, "\n";$f = eval('return strstr(__FILE__, "(");');echo $f, "\n";echo __LINE__, "\n";$s = <<<ExE;echo __LINE__, "\n";
+// lfecho __LINE__, "\n";

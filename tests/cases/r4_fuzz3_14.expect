@@ -1,0 +1,62 @@
+repl
+array (
+  0 => 
+  array (
+    0 => NULL,
+    1 => '',
+  ),
+)
+array (
+  0 => 'Repl\\Attr',
+  1 => 'HOOK:strtoupper',
+)
+'fn'
+'NA:class_exists:["\\"HOOK:array_map\\""]'
+'NA:strtoupper:1'
+'NA:strtoupper:123NA:fopen:25'
+'Repl\\Thing'
+Repl\Thing
+'"NA:fopen:2"'
+'NA:file_get_contents:1'
+array (
+  0 => '?Repl\\PDO',
+  1 => NULL,
+  2 => 'v',
+  3 => '?Repl\\PDO',
+)
+array (
+  0 => '<Repl\\Thing>',
+  1 => '',
+)
+'Repl\\Thing'
+'NA:fopen:2'
+'NA:array_reduce:{"callback":["Orig\\\\Thing","who"],"array":[1]}'
+'NA:fopen:2'
+'HOOK:array_map'
+Repl\Thing
+true
+'NA:class_implements:["Orig\\\\Thing"]'
+[null,""]
+'NA:file_get_contents:1'
+array (
+  0 => NULL,
+  1 => 'N0',
+)
+inline36
+array (
+  0 => '<HOOK:fopen|strtoupper|m:f>',
+  1 => '',
+)
+'NA:fopen:2'
+array (
+  0 => '<HOOK:fopen>',
+  1 => '',
+)
+'NA:file_get_contents:1'
+array (
+  0 => '<Repl\\Thing2345|Repl\\Thing|HOOK:fopen>',
+  1 => '',
+)
+'Repl\\Base'
+'NA:file_get_contents:1'
+HOOK:fopen''

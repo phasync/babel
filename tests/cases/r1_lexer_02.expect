@@ -1,0 +1,7 @@
+<html>
+fopen('x') in html
+HOOK:fopen
+text sleep(1)
+HOOK:fopen
+HOOK:strtoupperHOOK:usleeptail x
+HOOK:sleep

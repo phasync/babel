@@ -1,0 +1,24 @@
+<?php
+$d = __DIR__ . '/fixtures/';
+$files = ['k' => $d . 'r2_c2_p.php', 1 => $d . 'r2_c2_q.php'];
+echo include($files)['k'], "\n";
+echo include ($files)[1] . '', "\n";
+echo (include $d . 'r2_c2_arr.php')[1], "\n";
+[$a, $b] = include $d . 'r2_c2_arr.php';
+echo $a, $b, "\n";
+[1 => $z] = include $d . 'r2_c2_arr.php';
+echo $z, "\n";
+$v = null;
+$v ??= include $d . 'r2_c2_q.php';
+echo $v, "\n";
+$o = new stdClass;
+$o->{include $d . 'r2_c2_p.php'} = include $d . 'r2_c2_q.php';
+echo json_encode($o), "\n";
+$arr = [];
+$arr[include $d . 'r2_c2_p.php'] = include $d . 'r2_c2_two.php';
+echo json_encode($arr), "\n";
+echo "x{$arr[include $d . 'r2_c2_p.php']}y\n";
+$k = 'P';
+echo isset($arr[include $d . 'r2_c2_p.php']) ? 'set' : 'unset', "\n";
+var_dump(@include $d . (@include $d . 'r2_c2_p.php' ? 'r2_c2_q.php' : 'x'));
+echo include $d . ((include $d . 'r2_c2_p.php') ? 'r2_c2_q.php' : 'x'), "\n";

@@ -1,0 +1,12 @@
+Repl\Thing
+Repl\Thing NULL
+null-arm repl-arm
+array(2) {
+  ["Repl\Thing"]=>
+  int(1)
+  ["k"]=>
+  NULL
+}
+nRepl\Thing
+replNULL
+10,repl

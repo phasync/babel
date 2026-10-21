@@ -1,0 +1,4 @@
+HOOK:fopenHOOK:sleep5
+9
+11HOOK:usleep
+-1

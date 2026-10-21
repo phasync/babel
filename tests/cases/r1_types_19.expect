@@ -1,0 +1,18 @@
+finally 0
+outer Err Repl\Err plain plain orig
+MyErr|Logic Lib\MyErr
+finally 1
+Deeper Lib\Deeper noctx
+finally 2
+outer Err Lib\Deeper mine contract orig
+MyErr|Logic LogicException
+finally 3
+finally 4
+outer Err Repl\Err direct repl plain orig
+none
+finally 5
+Lib\MyErr > Repl\Err > Exception
+bool(true)
+bool(true)
+bool(false)
+bool(true)

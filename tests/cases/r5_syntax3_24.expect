@@ -1,0 +1,10 @@
+repl repl
+Error: Class name must be a valid object or a string
+TypeError: Cannot use "::class" on null
+NULL
+NULL
+NULL
+string(1) "|"
+bool(false)
+int(0)
+Class name must be a valid object or a string

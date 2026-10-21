@@ -1,0 +1,5 @@
+HOOK:fopenHOOK:strtoupperRepl\Thingrepl
+replrepl
+Repl\Thing
+HOOK:strtoupper
+HOOK:fopen Repl\Thing

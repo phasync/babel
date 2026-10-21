@@ -1,0 +1,7 @@
+HOOK:fopen HOOK:fopen HOOK:fopen HOOK:fopen
+Repl\Thing Repl\Thing repl
+repl repl
+bool(true)
+bool(false)
+HOOK:strtoupper Repl\Thing Repl\Thing
+utf8

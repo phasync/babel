@@ -1,0 +1,22 @@
+Repl\Base Repl\Contract
+Repl\Thing Repl\Thing Repl\Base
+__construct: - <- Repl\Thing,int,
+get: ?Repl\Thing <- 
+self: static <- 
+mk: static <- self|Repl\Thing,?parent,
+Repl\Thing
+anon rejects Orig
+Repl\Base
+bool(true)
+bool(true)
+bool(false)
+bool(false)
+bool(true)
+Repl\Thing,Repl\Base
+repl Repl\Thing Repl\Thing
+Repl\Thing Repl\Thing Repl\Base Repl\Contract
+Repl\Thing
+Repl\Base
+base
+b
+chain

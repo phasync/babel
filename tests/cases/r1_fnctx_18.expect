@@ -1,0 +1,4 @@
+B::fopen A::sleep A::fopen Repl\Tr HOOK:fopen HOOK:usleep
+4 HOOK:fopen1
+HOOK:sleep
+Repl\TrA::fopenHOOK:usleep

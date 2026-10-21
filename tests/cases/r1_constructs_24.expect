@@ -1,0 +1,5 @@
+interp: m-require(w)
+prop: get:include
+m-require(n)
+get:includeget:evalget:__FILE__get:__DIR__
+HOOK:fopen

@@ -1,0 +1,8 @@
+HOOK:strtoupperHOOK:fopen
+Repl\Thing
+HOOK:usleep/Repl\Thing
+const-PDO NULL
+Repl\Thing
+Repl\Attr HOOK:fopen
+Repl\Thing|Repl\PDO|null
+?Repl\Thing

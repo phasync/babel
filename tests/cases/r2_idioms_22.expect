@@ -1,0 +1,7 @@
+bool(true)
+bool(true)
+Repl\Base Repl\Thing HOOK:fopen Models
+/fixtures/r2_psr4/Models/User.php
+Repl\PDO App\Models\User,Repl\Thing
+bool(true)
+Repl\PDO

@@ -1,0 +1,6 @@
+dnf=(Repl\Thing&Repl\Contract)|null sdnf=(Repl\Base&Repl\Contract)|Repl\Thing|null ro=(Repl\Thing&Repl\Contract)|string spaced=?Repl\Thing multi=Repl\Thing|Repl\Base|null 
+(Repl\Thing&Repl\Contract)|null
+Repl\Thing Repl\Thing
+/** @return Thing */
+/** @var array<int, Thing> generics docblock: Thing|Base stays */
+Thing|Base Orig\ThingThing  instanceof Thing new Thing

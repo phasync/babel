@@ -1,0 +1,6 @@
+HOOK:strtoupper
+Repl\Thing
+?Repl\Thing
+?Repl\Thing
+Repl\Thing
+Cannot modify private(set) property A\H::$pv from global scope

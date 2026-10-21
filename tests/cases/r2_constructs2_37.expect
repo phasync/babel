@@ -1,0 +1,5 @@
+HOOK:strtoupper
+THOOK:strtoupper
+UHOOK:strtoupper
+Undefined constant "__COMPILER_HALT_OFFSET__"
+y

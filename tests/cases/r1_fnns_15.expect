@@ -1,0 +1,4 @@
+<html>
+<b>HOOK:sleep</b>
+  <i>HOOK:fopenHOOK:strtoupper fopen(sleep) HOOK:usleep</i>
+HOOK:fopen

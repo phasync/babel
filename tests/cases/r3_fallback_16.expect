@@ -1,0 +1,2 @@
+unchecked
+App:fopen HOOK:strtoupper

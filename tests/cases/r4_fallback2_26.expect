@@ -1,0 +1,4 @@
+Repl\Thing repl repl Repl\Thing
+HOOK:fopen Repl\Thing Repl\Thing
+|n|inst
+HOOK:fopen isa

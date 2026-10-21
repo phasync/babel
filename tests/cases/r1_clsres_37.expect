@@ -1,0 +1,7 @@
+catch(HOOK:sleep)
+extends(HOOK:sleep)
+fn(HOOK:sleep)
+function(HOOK:sleep)
+implements(HOOK:sleep)
+new(HOOK:sleep)
+list(HOOK:sleep)

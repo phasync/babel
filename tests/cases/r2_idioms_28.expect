@@ -1,0 +1,4 @@
+A<Base>[]{HOOK:strtoupper}
+B<>[I]{HOOK:file_get_contents}
+HOOK:strtoupper=x
+HOOK:strtoupper

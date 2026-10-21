@@ -1,0 +1,10 @@
+0 Error: Class "\\Orig\Thing" not found
+bool(false)
+2 Error: Class "\\Orig\Thing" not found
+3 TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, class "\\Orig\Thing" not found
+4 Error: Call to undefined function \\strtoupper()
+5 TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, function "\\strtoupper" not found or invalid function name
+6 Error: Class "\Orig\Thing" not found
+7 TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "\\strtoupper" not found or invalid function name
+bool(false)
+bool(false)

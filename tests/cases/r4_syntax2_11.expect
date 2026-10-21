@@ -1,0 +1,6 @@
+HOOK:fopen
+HOOK:sleep
+App\usleep HOOK:strtoupper
+inline HOOK:fopen 29
+Repl\Thing
+T

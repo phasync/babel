@@ -1,0 +1,10 @@
+{"eval":5,"include":1,"include_once":2,"require":3,"require_once":4}
+{"class":3,"extends":4,"fn":2,"function":1,"implements":5,"new":7,"static":8,"use":6}
+{"__CLASS__":5,"__COMPILER_HALT_OFFSET__":3,"__DIR__":2,"__FILE__":1,"__LINE__":4,"namespace":6}
+{"array":8,"catch":6,"const":5,"enum":4,"instanceof":1,"insteadof":2,"list":7,"match":3}
+{"0":1,"include":"{\"eval\":1}","require":2}
+{"abstract":4,"die":9,"echo":11,"exit":8,"final":5,"print":10,"private":2,"protected":3,"public":1,"readonly":6,"var":7}
+{"fn":2,"include":{"r3_newcode2_07.php":1},"new":{"class":1}}
+{"__DIR__":"{\"__FILE__\":15}","static":1}
+{"class":4} {"__DIR__":5,"fn":6} {"function":8,"include":7}
+ok {"__COMPILER_HALT_OFFSET__":true}

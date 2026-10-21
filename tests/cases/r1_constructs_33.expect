@@ -1,0 +1,5 @@
+["HOOK:fopen","r1_inc_a.php","fixtures",2,"","nolocal"]
+["sibling:HOOK:fopen:r1_sibling.php","HOOK:fopen","sub","r1_inc_a.php"]
+true
+true
+true

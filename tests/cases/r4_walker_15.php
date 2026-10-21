@@ -1,0 +1,21 @@
+<?php
+$c = 'Orig\Thing'; $f = fn() => 'Orig\Thing'; $p = 'c'; $nm = 'c';
+$o = new class { public $c = 'Orig\Thing'; public static $s = 'Orig\Thing'; public $a = ['k' => 'Orig\Thing']; public $self; };
+$o->self = $o;
+$a = ['k' => 'Orig\Thing', 'f' => $f];
+echo 1, get_class(new $c), get_class(new $c()), get_class(new $$nm), get_class(new ${'c'}), "\n";
+echo 2, get_class(new $o->c), get_class(new $o->self->c), get_class(new $o->{$p}), get_class(new $o->a['k']), "\n";
+echo 3, get_class(new $o::$s), get_class(new $a['k']), get_class(new ($f())), get_class(new ($a['f']())()), "\n";
+echo 4, get_class(new (trim(' Orig\Thing '))), get_class(new ('Orig' . '\Thing')), "\n";
+echo 5, (new $c) instanceof $c ? 'y' : 'n', new $c instanceof $o->c ? 'y' : 'n', new $c instanceof $a['k'] ? 'y' : 'n', new $c instanceof ($f()) ? 'y' : 'n', "\n";
+echo 6, get_class(new $c) === 'Repl\Thing' ? 'y' : 'n', "\n";
+echo 7, (new $o->c)::who(), new $o->c()::who(), "\n";
+echo 8, [new $c][0]::who(), (new $c)::X, "\n";
+echo 9, get_class(new $o->self->self->a['k']), "\n";
+echo 10, new class { public $v; function __construct() { global $c; $this->v = get_class(new $c); } }->v, "\n";
+echo 11, get_class(new ($o->c)), get_class(new (($o->c))), get_class(new ($c)), "\n";
+echo 12, get_class(new $a['k']()), "\n";
+$x = new $c instanceof $c; echo 13, $x ? 'y' : 'n', "\n";
+echo 14, !$o instanceof $c ? 'y' : 'n', "\n";
+$cls = [$c];
+echo 15, get_class(new $cls[0]), get_class(new $cls[0]()), "\n";

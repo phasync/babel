@@ -1,0 +1,7 @@
+WP_Thing Repl\Base Repl\Base true
+same Repl\Thing
+Repl\Thing Repl\Base HOOK:sleep/HOOK:usleep
+bool(false)
+bool(true)
+bool(true)
+?Repl\PDO

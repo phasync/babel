@@ -1,0 +1,3 @@
+TypeError: is_a(): Argument #3 ($allow_string) must be of type bool, int given
+TypeError: class_exists(): Argument #2 ($autoload) must be of type bool, int given
+is_a(): Argument #3 ($allow_string) must be of type bool, int given

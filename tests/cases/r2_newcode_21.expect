@@ -1,0 +1,5 @@
+Repl\Thing
+get:HOOK:strtoupper
+[HOOK:fopen]Repl\Base
+Repl\Thingget:HOOK:sleep Repl\Base
+Repl\PDOHOOK:fopen

@@ -1,0 +1,38 @@
+<?php
+$s = 'strtoupper';
+$o = new class { public $p = 'strtoupper'; public $c = 'Orig\Thing'; public $arr = ['k' => 'strtoupper'];
+  function m() { return 'strtoupper'; } function __invoke() { return 'strtoupper'; } };
+echo 1, (include __DIR__ . '/fixtures/r4_walker_inc.php')('a'), "\n";
+echo 2, print("strtoupper")("a"), "\n";
+function g() { yield("strtoupper")("a"); }
+foreach (g() as $v) echo 4, $v, "\n";
+echo 5, (string)"strtoupper"("a"), "\n";
+echo 6, -"1"[0], "\n";
+echo 7, !$s('a') ? 'n' : 'y', "\n";
+echo 8, @$s('a'), "\n";
+label: ("strtoupper")("a");
+echo 9, (static fn() => 'strtoupper')()('a'), "\n";
+echo 10, (function () { return 'strtoupper'; })()('a'), "\n";
+echo 11, (new class { function __invoke() { return 'strtoupper'; } })()('a'), "\n";
+echo 13, $o->arr['k']('a'), "\n";
+echo 14, ($o->p)('a'), "\n";
+echo 15, $o->m()('a'), "\n";
+echo 16, $o()('a'), "\n";
+echo 17, [$s][0]('a'), "\n";
+echo 18, array($s)[0]('a'), "\n";
+echo 19, ['k' => $s]['k']('a'), "\n";
+echo 20, "strtoupper"('a'), "\n";
+echo 21, 'strtoupper'('a'), "\n";
+echo 22, "strto{$o->m()[5]}pper"('a'), "\n";
+$n = 's'; $nn = 'n';
+echo 23, $$n('a'), $$$nn('a'), ${'s'}('a'), ${'s' . ''}('a'), "\n";
+echo 24, $o->{'p'}, $o->{'m'}()('a'), "\n";
+$arr = [fn() => 'strtoupper'];
+echo 25, $arr[0]()('a'), "\n";
+echo 26, ($arr[0])()('a'), "\n";
+echo 27, (($s))('a'), "\n";
+echo 28, ($s ?: 'x')('a'), "\n";
+echo 29, ($o?->p)('a'), "\n";
+echo 30, $o?->m()('a'), "\n";
+echo 31, (true ? $s : $s)('a'), "\n";
+echo 32, (match(true) { default => $s })("a"), "\n";

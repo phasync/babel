@@ -1,0 +1,9 @@
+fopen('html') HOOK:fopen
+ after
+x?>y?>
+inline sleep(1)
+HOOK:usleep
+HOOK:fopen
+12
+
+16

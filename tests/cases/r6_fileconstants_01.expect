@@ -1,0 +1,9 @@
+lint: ok
+lines preserved: yes
+const-value
+method-value
+Array
+(
+    [0] => /my/app/file.php
+    [1] => /my/app
+)

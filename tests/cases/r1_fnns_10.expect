@@ -1,0 +1,5 @@
+AAfopenHOOK:fopen
+HOOK:sleepHOOK:fopenA
+AAfopen
+AHOOK:fopen
+HOOK:sleep

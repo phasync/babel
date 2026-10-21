@@ -1,0 +1,9 @@
+0: same lines
+HOOK:fopen_altHOOK:fopenHOOK:fopen_altLib\otherLib\K
+HOOK:fopen_altHOOK:fopenHOOK:fopen_altLib\otherLib\K
+1: same lines
+HOOK:fopen_altLib\other
+HOOK:fopen_altLib\other
+2: same lines
+HOOK:fopenHOOK:fopen_alt
+HOOK:fopenHOOK:fopen_alt

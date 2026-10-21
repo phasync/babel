@@ -1,0 +1,3 @@
+Y:helper Y:helper HOOK:strtoupper
+0 HOOK:strtoupper
+0 HOOK:strtoupper | Y:up(2) App:strtoupper

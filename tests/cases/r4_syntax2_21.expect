@@ -1,0 +1,5 @@
+﻿html-start
+HOOK:strtoupper|2
+["HOOK:fopen","r4_syntax2_bom.php",5,"DATA\u0000\r\nend","Repl\\Thing"]
+﻿html-start
+HOOK:strtoupper|2true

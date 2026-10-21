@@ -1,0 +1,9 @@
+a=Repl\Thing
+b=Repl\Base|Repl\Err|null
+rest=Repl\Thing&Countable
+Repl\Thing
+Repl\Thing Repl\Base Repl\Err Repl\Thing Repl\Thing app\T
+Repl\Thing repl repl
+bool(true)
+bool(true)
+bool(true)

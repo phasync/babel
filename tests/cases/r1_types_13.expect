@@ -1,0 +1,9 @@
+a: Spec ?Repl\Base ?Spec mixed Traversable|callable|array ?object => static
+b: array|string|int|float ?false => ?Spec
+c: => never
+d: => void
+e: Repl\Thing|Repl\Base Repl\Thing => Spec|Repl\Thing
+f: => iterable
+Repl\Attr[1] Repl\Attr["Repl\\Thing"] 
+Repl\Base Repl\Contract Repl\Tr
+Repl\Err

@@ -1,0 +1,4 @@
+strict
+int(1)
+10
+HOOK:fopen

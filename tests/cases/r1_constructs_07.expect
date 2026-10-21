@@ -1,0 +1,8 @@
+HOOK:fopen
+n
+n=nHOOK:sleep
+1
+HOOK:sleep
+1
+HOOK:fopen
+xHOOK:sleepyHOOK:usleep

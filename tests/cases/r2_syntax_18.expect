@@ -1,0 +1,5 @@
+Repl\Thing HOOK:fopen
+mrfne
+Repl\Err Repl\Thing
+Repl\Thing HOOK:strtoupper method 1
+Repl\Thing HOOK:fopen

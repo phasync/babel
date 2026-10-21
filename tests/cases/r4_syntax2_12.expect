@@ -1,0 +1,4 @@
+HOOK:fopen_alt HOOK:fopen Lib\C Lib\Sub\fc
+HOOK:fopen_alt HOOK:fopen Lib\Sub\fc 6
+Lib\Sub\fc HOOK:fopen HOOK:fopen_alt HOOK:fopen_alt
+HOOK:fopen_altLib\C4

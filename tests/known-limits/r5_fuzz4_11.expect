@@ -1,0 +1,5 @@
+callee: linear
+fallback: linear
+class: linear
+nullsafe: linear
+parens: linear

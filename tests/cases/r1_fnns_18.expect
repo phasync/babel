@@ -1,0 +1,4 @@
+a mHOOK:sleep b anon-sleep
+heredoc mHOOK:strtoupper sleep(1) anon-sleep
+nowdoc sleep(1)
+sleep(1) fopen('x')usleep(1)

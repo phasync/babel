@@ -1,0 +1,4 @@
+A\fopen
+HOOK:fopen
+HOOK:sleep
+A\sleep

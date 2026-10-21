@@ -1,0 +1,5 @@
+strtoupper311.5
+HOOK:strtoupper HOOK:fopen a a
+Repl\Thing
+HOOK:strtoupper!
+10

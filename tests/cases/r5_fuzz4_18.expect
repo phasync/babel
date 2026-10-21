@@ -1,0 +1,40 @@
+["who[Repl\\K](q)"]["Orig\\K::who",["q"]]
+[["a!","b!"],"oref"]
+#11 NULL ak
+#147 '["Orig\\\\K","kh"]x' 
+#702 1 
+#711 'who[Repl\\K](s710)' s710
+#714 H Orig\K
+#798 'm(1)' ak,n717
+#965 Error: Call to undefined method H::fn() 
+#1167 Error: Call to a member function nul() on null 
+#1181 false 
+#1190 1 s1183
+#1247 'rrefH' 
+#1272 'who[Repl\\K](\'Orig\\\\K\')p' s1262
+#2209 'Orig\\K' 
+#2212 'rfn(\'\\\'rfn(\\\\\\\'Orig\\\\\\\\\\\\\\\\K\\\\\\\')\\\'\')' 
+#2358 false a2215,b2215
+#2564 'rfn(\'who[Repl\\\\K](a2557,b2557)\')' a2557,b2557
+#2567 'rfn(\'n2566\')' n2566
+#2586 ["who[Repl\\K](a2584,b2584)","after"] a2584,b2584,after
+#2717 Error: Class name must be a valid object or a string n2591
+#2881 Error: Class name must be a valid object or a string 
+#3964 'who[Repl\\K](qq)' qq
+{"0":[3,2,1],"callback":"ocmp"}
+#3968 'rfn(\'Orig\\\\K\')' 
+#4018 H 
+#4021 'rfn(\'Orig\\\\K\')' 
+#4024 1 a4023,b4023
+#4030 false a4029,b4029
+#4893 ["Orig\\K","O"] ak
+["who[Repl\\K](q)"]["Orig\\K::who",["q"]]
+#4910 ["O","after"] after
+#4927 '\'who[Repl\\\\K]()\'p' 
+'rfn(\'fb4929\')'
+#5425 Error: Class name must be a valid object or a string fb4929
+#5757 H s5750
+#5809 Error: Call to undefined method H::fn() 
+#5820 'inv(["m(Orig\\\\K)","who[Repl\\\\K](a5818,b5818)"])' Orig\K,a5818,b5818
+#6118 Error: Call to undefined method H::fha() 
+#6363 'NULLx' n6120

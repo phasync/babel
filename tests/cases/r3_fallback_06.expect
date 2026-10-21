@@ -1,0 +1,3 @@
+HOOK:file_get_contents
+local-fgc
+local-fgc

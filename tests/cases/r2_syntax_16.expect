@@ -1,0 +1,4 @@
+3 HOOK:fopen
+HOOK:strtoupper Repl\Thing
+Repl\Thing
+HOOK:sleep

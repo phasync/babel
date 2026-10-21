@@ -1,0 +1,11 @@
+caught
+Repl\Err
+Repl\ThingRepl\Base
+Repl\Attr ["x"]
+Repl\Attr ["Repl\\Thing"]
+u=Repl\Thing|Repl\Base
+s=?Repl\Thing
+q=Repl\Thing|int
+cm=Repl\Thing
+ro=Repl\Thing
+(Repl\Base&Repl\Thing)|null Repl\Thing

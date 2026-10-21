@@ -1,0 +1,29 @@
+string(10) "Repl\Thing"
+NULL
+string(10) "Repl\Thing"
+NULL
+string(4) "repl"
+string(4) "dflt"
+Error: Class name must be a valid object or a string
+string(4) "repl"
+string(10) "Repl\Thing"
+string(10) "Repl\Thing"
+NULL
+string(10) "Repl\Thing"
+string(10) "Repl\Thing"
+string(10) "Repl\Thing"
+NULL
+string(11) "Repl\Thing!"
+bool(true)
+bool(false)
+string(10) "Repl\Thing"
+array(2) {
+  [0]=>
+  string(10) "Repl\Thing"
+  [1]=>
+  NULL
+}
+string(10) "Repl\Thing"
+string(10) "Repl\Thing"
+Repl\Thing
+h Repl\Thing |

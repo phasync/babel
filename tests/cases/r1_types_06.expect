@@ -1,0 +1,17 @@
+A:Repl\Err
+outer:Orig\Err
+outer:RuntimeException
+FQ catch Repl\Err
+union second y
+no var
+fin
+by Exception Repl\Err
+Repl\Attr [] []
+Repl\Attr [0] [1]
+Repl\Attr ["v"] {"v":"Repl\\Thing"}
+Repl\Attr Repl\Thing
+Repl\Attr repl
+Repl\Attr Repl\Attr 
+t:Repl\Attr([3]) u:Repl\Attr([]) u:Repl\Attr(["Repl\\Base"]) 
+Repl\Attr
+Repl\Attr Repl\Attr

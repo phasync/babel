@@ -1,0 +1,3 @@
+HOOK:strtoupper
+HOOK:strtoupper local(c) local(c) 
+local(a) local(b)

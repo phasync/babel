@@ -1,0 +1,4 @@
+bool(false)
+bool(true)
+class_exists(): Argument #1 ($class) must be of type string, int given
+class_exists(): Argument #1 ($class) must be of type string, int given

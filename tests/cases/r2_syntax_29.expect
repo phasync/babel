@@ -1,0 +1,1 @@
+set(HOOK:strtoupper) get(HOOK:fopen)

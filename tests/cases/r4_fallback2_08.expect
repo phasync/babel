@@ -1,0 +1,2 @@
+HOOK:strtoupper HOOK:strtoupper
+HOOK:strtoupper HOOK:strtoupper HOOK:strtoupper+local

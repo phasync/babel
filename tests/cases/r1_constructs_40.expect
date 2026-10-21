@@ -1,0 +1,5 @@
+HOOK:fopenv0
+HOOK:fopenv1
+HOOK:fopenv2
+plain-a
+plain-b

@@ -1,0 +1,12 @@
+0 HOOK:fopen|HOOK:strtoupper|app\usleep|HOOK:sleep|Repl\Thing|Repl\Thing
+  same
+1 NULL|Repl\Thing|Repl\Thing
+  same
+2 HOOK:array_map|1|Repl\Thing|HOOK:fopen
+  same
+3 true|HOOK:fopen|HOOK:strtoupper
+  same
+4 Repl\Thing Repl\Thing |HOOK:fopen|Repl\Thing|Repl\Base
+  same
+5 1|repl|Repl\Thing|HOOK:fopen
+  same

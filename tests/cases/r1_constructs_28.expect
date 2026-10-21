@@ -1,0 +1,9 @@
+S
+RHOOK:strtoupper
+S
+S
+bool(true)
+RHOOK:strtoupper
+S
+text S more RHOOK:strtoupper
+end 

@@ -1,0 +1,1 @@
+["HOOK:fopen","HOOK:sleep","HOOK:usleep",["HOOK:fopen","method-fopen","static-sleep","static-sleep"],"HOOK:strtoupper","HOOK:file_get_contents","HOOK:stream_select","method-fopen","static-sleep","method-fopen"]

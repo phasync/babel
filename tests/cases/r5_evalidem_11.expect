@@ -1,0 +1,15 @@
+HOOK:strtoupper
+1
+0: ParseError: syntax error, unexpected end of file
+1: ParseError: syntax error, unexpected end of file
+2: ParseError: syntax error, unexpected end of file
+3: false
+4: false
+
+Warning: Array to string conversion in {DIR}/r5_evalidem_11.php on line 10
+5: ParseError: syntax error, unexpected end of file, expecting "("
+6: Error: Object of class stdClass could not be converted to string
+7: ParseError: syntax error, unexpected identifier "id"
+Error: Object of class Generator could not be converted to string
+Error: Object of class E could not be converted to string
+1

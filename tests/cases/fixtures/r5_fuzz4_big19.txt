@@ -1,0 +1,50 @@
+<?php
+namespace app;
+use Orig\K;
+$xx = 'nm'; $h = \H::$root; $n = null; $k = new K; $s = 'Orig\K'; $f = 'ofn'; $nm = 'h'; $mv = 'who'; $pn = 'self'; $pp = 'pn'; $t = true; $mk = 'mk'; $fv = 'f'; $sn = 's';
+$arr = ['h' => $h, 'c' => 'Orig\K', 'f' => 'ofn'];
+echo '#136 '; try { $__v = K::$arr['c']::kc(l($n?->nx))::$arr['c']; echo \D($__v); } catch (\Throwable $__e) { echo \get_class($__e), ': ', $__e->getMessage(); } echo ' ', \LF(), "\n";
+echo '#146 '; try { $__v = ($n ?? $h)->cls[0] === null; echo \D($__v); } catch (\Throwable $__e) { echo \get_class($__e), ': ', $__e->getMessage(); } echo ' ', \LF(), "\n";
+$a153 = ['ofn', 'x', 'y']; echo call_user_func(...$a153), "\n";
+echo '#243 '; try { $__v = ["\157fn"(l('a154')), \H::sh()->o->self->fh($f)]; echo \D($__v); } catch (\Throwable $__e) { echo \get_class($__e), ': ', $__e->getMessage(); } echo ' ', \LF(), "\n";
+$__g367 = (function () { global $h, $n, $k, $s, $f, $nm, $mv, $pn, $pp, $arr, $t, $mk, $fv, $sn, $xx, $tq; return eval('namespace app; use Orig\\K; return function () { global $h, $n, $k, $s, $f, $nm, $mv, $pn, $pp, $arr, $t, $mk, $fv, $sn, $xx, $tq; echo \'#366 \'; try { $__v = \\D(K::C::$arr[\'h\']->me($s)) . \'x\'; echo \\D($__v); } catch (\\Throwable $__e) { echo \\get_class($__e), \': \', $__e->getMessage(); } echo \' \', \\LF(), "\\n"; };'); })(); $__g367();
+echo '#369 '; try { $__v = b"\x6ffn"(); echo \D($__v); } catch (\Throwable $__e) { echo \get_class($__e), ': ', $__e->getMessage(); } echo ' ', \LF(), "\n";
+$a371 = [['a', 'b'], 'oref']; array_walk(...$a371); echo json_encode($a371), "\n";
+function w1252() { global $h, $n, $k, $s, $f, $nm, $mv, $pn, $pp, $arr, $t, $mk, $fv, $sn, $xx, $tq; echo '#1251 '; try { $__v = $h?->nx?->fh($s)->{$pn}->o[0] === null; echo \D($__v); } catch (\Throwable $__e) { echo \get_class($__e), ': ', $__e->getMessage(); } echo ' ', \LF(), "\n"; }
+w1252();
+echo '#1264 '; try { $__v = (('o' . 'fn')) ?? 'dp'; echo \D($__v); } catch (\Throwable $__e) { echo \get_class($__e), ': ', $__e->getMessage(); } echo ' ', \LF(), "\n";
+foreach ((function () { global $h, $n, $k, $s, $f, $nm, $mv, $pn, $pp, $arr, $t, $mk, $fv, $sn, $xx, $tq; yield 1; echo '#1267 '; try { $__v = ((string) \D("o\x66n"(l($h?->cls))) |> $k); echo \D($__v); } catch (\Throwable $__e) { echo \get_class($__e), ': ', $__e->getMessage(); } echo ' ', \LF(), "\n"; })() as $__i) {}
+echo '#1270 '; try { $__v = "o\x66n"(...[l('s1269')]); echo \D($__v); } catch (\Throwable $__e) { echo \get_class($__e), ': ', $__e->getMessage(); } echo ' ', \LF(), "\n";
+echo '#1285 '; try { $__v = [\H::$root?->c($s)::{'who'}(l('a1283'), l('b1283')), l('after')]; echo \D($__v); } catch (\Throwable $__e) { echo \get_class($__e), ': ', $__e->getMessage(); } echo ' ', \LF(), "\n";
+$a1287 = [['x'], 'oref', 'extra']; array_walk(...$a1287); echo json_encode($a1287), "\n";
+(function () { global $h, $n, $k, $s, $f, $nm, $mv, $pn, $pp, $arr, $t, $mk, $fv, $sn, $xx, $tq; echo '#1289 '; try { $__v = "o\x66n"($f) === null; echo \D($__v); } catch (\Throwable $__e) { echo \get_class($__e), ': ', $__e->getMessage(); } echo ' ', \LF(), "\n"; })();
+$__g2018 = (function () { global $h, $n, $k, $s, $f, $nm, $mv, $pn, $pp, $arr, $t, $mk, $fv, $sn, $xx, $tq; return eval('namespace app; use Orig\\K; return function () { global $h, $n, $k, $s, $f, $nm, $mv, $pn, $pp, $arr, $t, $mk, $fv, $sn, $xx, $tq; echo \'#2017 \'; try { $__v = (b\'\\\\Orig\\K\'::C)[0] === null; echo \\D($__v); } catch (\\Throwable $__e) { echo \\get_class($__e), \': \', $__e->getMessage(); } echo \' \', \\LF(), "\\n"; };'); })(); $__g2018();
+$a2019 = [5 => [3, 1, 2], 9 => 'ocmp']; usort(...$a2019); echo json_encode($a2019), "\n";
+$a2020 = [$s, true]; echo json_encode([class_exists(...$a2020), is_a('Orig\K', ...$a2020)]), "\n";
+foreach ((function () { global $h, $n, $k, $s, $f, $nm, $mv, $pn, $pp, $arr, $t, $mk, $fv, $sn, $xx, $tq; yield 1; echo '#2046 '; try { $__v = [$GLOBALS[$nm]?->o, $$$xx->me(l('a2027'))?->me($s)?->fha(l('a2045'))]; echo \D($__v); } catch (\Throwable $__e) { echo \get_class($__e), ': ', $__e->getMessage(); } echo ' ', \LF(), "\n"; })() as $__i) {}
+foreach ((function () { global $h, $n, $k, $s, $f, $nm, $mv, $pn, $pp, $arr, $t, $mk, $fv, $sn, $xx, $tq; yield 1; echo '#2049 '; try { $__v = \D("{$f}"(...[l('s2048')])) . 'x'; echo \D($__v); } catch (\Throwable $__e) { echo \get_class($__e), ': ', $__e->getMessage(); } echo ' ', \LF(), "\n"; })() as $__i) {}
+echo \D((function () { return [ofn(...), "class_exists"]; })()[0]('Orig\K')), "\n";
+$a2052 = [['x'], 'oref', 'extra']; array_walk(...$a2052); echo json_encode($a2052), "\n";
+class C2085 { function r() { global $h, $n, $k, $s, $f, $nm, $mv, $pn, $pp, $arr, $t, $mk, $fv, $sn, $xx, $tq; echo '#2084 '; try { $__v = new K()?->m(\json_encode($$nm?->{$pn}?->cls::class)); echo \D($__v); } catch (\Throwable $__e) { echo \get_class($__e), ': ', $__e->getMessage(); } echo ' ', \LF(), "\n"; } }
+(new C2085)->r();
+foreach ((function () { global $h, $n, $k, $s, $f, $nm, $mv, $pn, $pp, $arr, $t, $mk, $fv, $sn, $xx, $tq; yield 1; echo '#2681 '; try { $__v = ((string) \D(((new K)->self?->n?->self)) |> $k); echo \D($__v); } catch (\Throwable $__e) { echo \get_class($__e), ': ', $__e->getMessage(); } echo ' ', \LF(), "\n"; })() as $__i) {}
+echo '#2770 '; try { $__v = (new class { function m() { return 'Orig\K'; } }->m()::{'who'}() |> $k->m(...)); echo \D($__v); } catch (\Throwable $__e) { echo \get_class($__e), ': ', $__e->getMessage(); } echo ' ', \LF(), "\n";
+echo '#3880 '; try { $__v = [$GLOBALS['h']?->fn(...[l('s2809')]), (\H::sh()->{$pn}->cls)::class]; echo \D($__v); } catch (\Throwable $__e) { echo \get_class($__e), ': ', $__e->getMessage(); } echo ' ', \LF(), "\n";
+echo '#3910 '; try { $__v = ($__x3909 = [$h][0]->arr['c']::kn(l($n?->nx))?->self::who()); echo \D($__v); } catch (\Throwable $__e) { echo \get_class($__e), ': ', $__e->getMessage(); } echo ' ', \LF(), "\n";
+foreach ((function () { global $h, $n, $k, $s, $f, $nm, $mv, $pn, $pp, $arr, $t, $mk, $fv, $sn, $xx, $tq; yield 1; echo '#3935 '; try { $__v = ($__x3934 = (\H::sh()->fha)); echo \D($__v); } catch (\Throwable $__e) { echo \get_class($__e), ': ', $__e->getMessage(); } echo ' ', \LF(), "\n"; })() as $__i) {}
+$a3937 = [[3, 1, 2]]; usort($a3937[0], ...['ocmp']); echo json_encode($a3937), "\n";
+echo '#4282 '; try { $__v = ($n?->self)?->o?->self; echo \D($__v); } catch (\Throwable $__e) { echo \get_class($__e), ': ', $__e->getMessage(); } echo ' ', \LF(), "\n";
+foreach ((function () { global $h, $n, $k, $s, $f, $nm, $mv, $pn, $pp, $arr, $t, $mk, $fv, $sn, $xx, $tq; yield 1; echo '#4291 '; try { $__v = ofn(b"Orig\\K"::$mv(...[l('s4290')])); echo \D($__v); } catch (\Throwable $__e) { echo \get_class($__e), ': ', $__e->getMessage(); } echo ' ', \LF(), "\n"; })() as $__i) {}
+(static function () { global $h, $n, $k, $s, $f, $nm, $mv, $pn, $pp, $arr, $t, $mk, $fv, $sn, $xx, $tq; echo '#4433 '; try { $__v = $n?->nx?->{$pn}?->fha(x: l('n4432'))[0]; echo \D($__v); } catch (\Throwable $__e) { echo \get_class($__e), ': ', $__e->getMessage(); } echo ' ', \LF(), "\n"; })();
+function w5677() { global $h, $n, $k, $s, $f, $nm, $mv, $pn, $pp, $arr, $t, $mk, $fv, $sn, $xx, $tq; echo '#5676 '; try { $__v = 'Orig\\K'::F(...[l('s5675')]) === null; echo \D($__v); } catch (\Throwable $__e) { echo \get_class($__e), ': ', $__e->getMessage(); } echo ' ', \LF(), "\n"; }
+w5677();
+echo '#5837 '; try { $__v = $GLOBALS[$nm]?->arr['c']::who(); echo \D($__v); } catch (\Throwable $__e) { echo \get_class($__e), ': ', $__e->getMessage(); } echo ' ', \LF(), "\n";
+function w6708() { global $h, $n, $k, $s, $f, $nm, $mv, $pn, $pp, $arr, $t, $mk, $fv, $sn, $xx, $tq; echo '#6707 '; try { $__v = ($t ? $h : null)->o?->fha ? 1 : 2; echo \D($__v); } catch (\Throwable $__e) { echo \get_class($__e), ': ', $__e->getMessage(); } echo ' ', \LF(), "\n"; }
+w6708();
+foreach ((function () { global $h, $n, $k, $s, $f, $nm, $mv, $pn, $pp, $arr, $t, $mk, $fv, $sn, $xx, $tq; yield 1; echo '#6865 '; try { $__v = ${$nm}->fh(); echo \D($__v); } catch (\Throwable $__e) { echo \get_class($__e), ': ', $__e->getMessage(); } echo ' ', \LF(), "\n"; })() as $__i) {}
+$a6867 = ['Orig\K::who', ['q']]; echo json_encode(array_map(...$a6867)), json_encode($a6867), "\n";
+echo '#7322 '; try { echo \D(eval('namespace app; use Orig\\K; global $h, $n, $k, $s, $f, $nm, $mv, $pn, $pp, $arr, $t, $mk, $fv, $sn, $xx, $tq; return \\D($s::class) . \'x\';')); } catch (\Throwable $__e) { echo \get_class($__e), ': ', $__e->getMessage(); } echo ' ', \LF(), "\n";
+function w7337() { global $h, $n, $k, $s, $f, $nm, $mv, $pn, $pp, $arr, $t, $mk, $fv, $sn, $xx, $tq; echo '#7336 '; try { $__v = b'\\Orig\K'::$obj->nx::class ?? 'dflt'; echo \D($__v); } catch (\Throwable $__e) { echo \get_class($__e), ': ', $__e->getMessage(); } echo ' ', \LF(), "\n"; }
+w7337();
+(static function () { global $h, $n, $k, $s, $f, $nm, $mv, $pn, $pp, $arr, $t, $mk, $fv, $sn, $xx, $tq; echo '#7381 '; try { $__v = ofn("Orig\\K"::C::$obj->me(l($n?->nx))->{$pn}); echo \D($__v); } catch (\Throwable $__e) { echo \get_class($__e), ': ', $__e->getMessage(); } echo ' ', \LF(), "\n"; })();
+function g7383() { return class_exists('Orig\K'); } echo \D(g7383()), "\n";

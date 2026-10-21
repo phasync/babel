@@ -1,0 +1,4 @@
+HOOK:fopen Repl\Thing
+HOOK:strtoupper
+Repl\Thing
+Repl\Thing

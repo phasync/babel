@@ -1,0 +1,11 @@
+
+Warning: Undefined variable $undef in {DIR}/r5_newfeat_09.php on line 5
+TypeError: Only arrays and Traversables can be unpacked, null given
+bool(false)
+
+Warning: Undefined variable $nope in {DIR}/r5_newfeat_09.php on line 7
+TypeError
+array(1) {
+  [0]=>
+  string(1) "e"
+}

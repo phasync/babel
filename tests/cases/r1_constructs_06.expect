@@ -1,0 +1,7 @@
+W:Undefined variable $u1 @(7) : eval()'d code line 1
+HOOK:fopenW:Undefined variable $u2 @(7) : eval()'d code line 3
+{DIR}/r1_constructs_06.php(7) : eval()'d code
+W:Undefined variable $w @(10) : eval()'d code line 1
+HOOK:strtoupper
+W:Undefined variable $q @(14) : eval()'d code line 1
+W:Undefined variable $q2 @(14) : eval()'d code line 2

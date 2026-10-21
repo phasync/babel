@@ -1,0 +1,2 @@
+HOOK:strtoupper HOOK:fopen HOOK:strtoupper
+local(i) lf(j) local(k)

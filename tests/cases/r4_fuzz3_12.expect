@@ -1,0 +1,70 @@
+'ksx'
+array (
+  0 => 'Repl\\Base',
+  1 => true,
+)
+array (
+  0 => 'Repl\\Thing',
+  1 => 'W',
+)
+array (
+  0 => 'Repl\\Base|Repl\\Thing|null',
+  1 => NULL,
+  2 => 'v',
+  3 => 'Repl\\Base|Repl\\Thing|null',
+)
+array (
+  0 => 'Repl\\Thing',
+  1 => true,
+)
+'HOOK:strtoupper'
+'m:n'
+array (
+  0 => '<m:["qinv","A"]>',
+  1 => '',
+)
+array (
+  0 => '<HOOK:strtoupper|m:e>',
+  1 => '',
+)
+'inv:ab'
+array (
+  0 => NULL,
+  1 => '',
+)
+'["Repl\\\\Thing","L2,V"]x'
+'repl'
+Repl\Thing
+array (
+  0 => 'HOOK:strtoupper',
+  1 => 'A',
+)
+true
+'NB:fopen:2'
+HOOK:fopen
+'Repl\\Thing'
+array (
+  0 => '?Repl\\Thing',
+  1 => NULL,
+  2 => 'v',
+  3 => '?Repl\\Thing',
+)
+Repl\Thing
+true
+false
+Repl\Thing
+HOOK:fopen
+array (
+  0 => '?Repl\\Contract',
+  1 => NULL,
+  2 => 'v',
+  3 => '?Repl\\Contract',
+)
+repl
+array (
+  0 => NULL,
+  1 => '',
+)
+1
+'NB:fopen:2'
+false

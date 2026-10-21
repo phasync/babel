@@ -1,0 +1,7 @@
+tr(1)@11 int(1)
+tr(2)@14 string(10) "Repl\Thing"
+tr(3)@18 int(3)
+Exception: boom @7
+tr(5)@23 int(5)
+string(4) "nope"
+tr(6)@28 int(6)

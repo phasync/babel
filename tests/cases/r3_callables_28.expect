@@ -1,0 +1,6 @@
+HOOK:fopen_alt
+HOOK:fopen
+HOOK:fopen_alt
+a
+2,1
+HOOK:sleep HOOK:usleep

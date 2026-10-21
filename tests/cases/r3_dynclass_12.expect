@@ -1,0 +1,8 @@
+Error: Class name must be a valid object or a string
+NULL
+TypeError: Cannot use "::class" on null
+bool(false)
+string(4) "dflt"
+string(4) "repl"
+string(4) "repl"
+bool(true)

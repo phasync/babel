@@ -1,0 +1,7 @@
+0: m(Repl\Thing)?Repl\Thing p:Repl\Thing Repl\Base 
+1: m(Repl\Base|Repl\Thing)Repl\Base|Repl\Thing q:?Repl\Thing n:int - 
+2: m(Repl\Thing)Repl\Thing inner:object p:?Repl\Base - 
+3: m(Repl\Thing) - Repl\Contract
+a rejects
+c rejects
+d rejects

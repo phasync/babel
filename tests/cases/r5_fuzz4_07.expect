@@ -1,0 +1,12 @@
+
+Warning: Cannot pass by-reference argument 1 of usort() by unpacking a Traversable, passing by-value instead in {DIR}/r5_fuzz4_07.php on line 4
+bool(true)
+
+Warning: Cannot pass by-reference argument 1 of usort() by unpacking a Traversable, passing by-value instead in {DIR}/r5_fuzz4_07.php on line 6
+bool(true)
+array(2) {
+  [0]=>
+  string(1) "b"
+  [1]=>
+  string(1) "a"
+}

@@ -1,0 +1,7 @@
+app:a
+HOOK:strtoupper
+HOOK:strtoupper
+global
+HOOK:strtoupper
+app:d
+app:e

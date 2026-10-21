@@ -1,0 +1,13 @@
+[toString]string(10) "HOOK:fopen"
+bool(false)
+ParseError: syntax error, unexpected end of file
+ParseError: syntax error, unexpected end of file
+ParseError: syntax error, unexpected end of file
+bool(false)
+Error: Object of class stdClass could not be converted to string
+
+Warning: Array to string conversion in {DIR}/r4_eval_19.php on line 3
+ParseError: syntax error, unexpected end of file, expecting "("
+[toString]int(1)
+Error: Object of class E could not be converted to string
+int(1)

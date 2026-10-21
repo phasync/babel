@@ -1,0 +1,3 @@
+HOOK:fopen A-own HOOK:sleep A-own
+HOOK:fopen HOOK:sleep A-own
+HOOK:fopen HOOK:sleep HOOK:fopen HOOK:sleep HOOK:usleep

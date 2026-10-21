@@ -1,0 +1,11 @@
+int: rejected
+self: rejected
+static: rejected
+parent: rejected
+array: rejected
+mixed: rejected
+iterable: rejected
+never: rejected
+void: rejected
+null: rejected
+false: rejected

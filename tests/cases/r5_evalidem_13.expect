@@ -1,0 +1,4 @@
+CompileError: __HALT_COMPILER() can only be used from the outermost scope @ r5_evalidem_13.php(9) : eval()'d code:1
+1
+CompileError: __HALT_COMPILER() can only be used from the outermost scope @ r5_evalidem_13.php(9) : eval()'d code:3
+1

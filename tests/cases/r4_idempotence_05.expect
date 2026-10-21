@@ -1,0 +1,15 @@
+shebang: HOOK:fopen same marked
+bom: BOMHOOK:fopen same marked
+html: <b>
+</b>
+HOOK:fopen same marked
+echo: HOOK:fopen same marked
+echo2: xHOOK:fopenHOOK:strtoupper same marked
+crlf: HOOK:fopen same marked
+tab: HOOK:fopen same marked
+close: HOOK:fopen same marked
+docblock: HOOK:fopen same marked
+comment: HOOK:fopen same marked
+strict: HOOK:fopen same marked
+markerstr: MARKERHOOK:fopen same marked
+halt: HOOK:fopen73 same marked

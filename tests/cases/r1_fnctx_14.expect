@@ -1,0 +1,9 @@
+HOOK:fopenHOOK:sleepsub-helperHOOK:strtoupper
+HOOK:usleep
+HOOK:strtoupper3
+sub-helpersub-helper
+HOOK:fopen,HOOK:fopen
+own-fopen HOOK:fopen own-fopen HOOK:sleep
+own-fopen
+own-fopenown-fopenHOOK:fopen
+HOOK:fopenHOOK:fopen

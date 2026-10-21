@@ -1,0 +1,3 @@
+App:array_map(strtoupper)
+App:is_a(Orig\Thing)
+App:cuf(fopen)

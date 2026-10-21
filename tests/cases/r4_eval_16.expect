@@ -1,0 +1,6 @@
+ParseError: syntax error, unexpected identifier "fopen" @r4_eval_16.php(2) : eval()'d code:1
+ParseError: syntax error, unexpected integer "1" @r4_eval_16.php(2) : eval()'d code:1
+ParseError: syntax error, unexpected token "new" @r4_eval_16.php(2) : eval()'d code:1
+ParseError: syntax error, unexpected integer "1" @r4_eval_16.php(2) : eval()'d code:1
+ParseError: syntax error, unexpected integer "2" @r4_eval_16.php(2) : eval()'d code:1
+ParseError: syntax error, unexpected identifier "PDO", expecting "," or ";" @r4_eval_16.php(2) : eval()'d code:1

@@ -1,0 +1,10 @@
+a:Repl\Thing
+cb:-
+c:Repl\Base
+arrow:-
+d:?Repl\Thing
+rest:Repl\Thing&Repl\Base
+["Repl\\Thing","Repl\\Thing","HOOK:fopen"]
+Repl\Attr Repl\Thing
+Repl\Thing
+HOOK:sleep

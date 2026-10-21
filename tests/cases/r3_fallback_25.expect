@@ -1,0 +1,2 @@
+HOOK:fopen HOOK:fopen
+Y:nsfopen

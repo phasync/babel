@@ -1,0 +1,4 @@
+s21\Thing n
+Repl\Thing Repl\Thing s21\Thing
+HOOK:fopen
+HOOK:fopen_alt

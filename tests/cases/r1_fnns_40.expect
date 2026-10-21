@@ -1,0 +1,17 @@
+1:HOOK:usleep
+2:HOOK:fopen
+3:[HOOK:strtoupper]
+4:HOOK:fopen
+5:HOOK:sleep
+6:deep-sleep
+7:own-B-usleep
+8:own-B-usleep
+9:own-B-usleep
+10:lib-strtoupper
+11:HOOK:usleep
+12:HOOK:sleep
+13:[HOOK:sleep]
+14:HOOK:sleep
+15:lib-usleep
+16:lib-sleep
+17:[HOOK:sleep]

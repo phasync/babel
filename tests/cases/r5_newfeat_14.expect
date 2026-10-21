@@ -1,0 +1,12 @@
+HOOK:strtoupper
+string(15) "HOOK:strtoupper"
+HOOK:strtoupper,HOOK:strtoupper
+match
+key
+key
+key
+HOOK:strtoupper
+Repl\Thing
+HOOK:strtoupper
+HOOK:strtoupper
+0

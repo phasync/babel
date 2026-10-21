@@ -1,0 +1,11 @@
+class_exists(): Argument #1 ($class) must be of type string, int given
+bool(true)
+is_a(): Argument #3 ($allow_string) must be of type bool, int given
+bool(true)
+class_exists(): Argument #1 ($class) must be of type string, int given
+class_exists(): Argument #1 ($class) must be of type string, int given
+is_subclass_of(): Argument #3 ($allow_string) must be of type bool, int given
+method_exists(): Argument #2 ($method) must be of type string, int given
+property_exists(): Argument #1 ($object_or_class) must be of type object|string, int given
+get_parent_class(): Argument #1 ($object_or_class) must be an object or a valid class name, int given
+class_implements(): Argument #2 ($autoload) must be of type bool, int given

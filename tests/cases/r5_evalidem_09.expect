@@ -1,0 +1,16 @@
+{"Orig\\Thing":"self"} rejected
+{"self":"Repl\\Thing"} rejected
+{"Orig\\Thing":"static"} rejected
+{"static":"Repl\\Thing"} rejected
+{"Orig\\Thing":"parent"} rejected
+{"parent":"Repl\\Thing"} rejected
+{"Orig\\Thing":"int"} rejected
+{"int":"Repl\\Thing"} rejected
+{"Orig\\Thing":"array"} rejected
+{"array":"Repl\\Thing"} rejected
+{"Orig\\Thing":"never"} rejected
+{"never":"Repl\\Thing"} rejected
+{"Orig\\Thing":"mixed"} rejected
+{"mixed":"Repl\\Thing"} rejected
+{"Orig\\Thing":"iterable"} rejected
+{"iterable":"Repl\\Thing"} rejected

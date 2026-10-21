@@ -1,0 +1,12 @@
+Array
+(
+    [0] => C:T::eval:t
+    [1] => U::eval:u
+    [2] => T::eval:s
+    [3] => C:T::eval:c
+    [4] => T::run:r
+)
+S:1S:2
+eval,EVAL
+Call to undefined function eval()
+Call to undefined function eval()

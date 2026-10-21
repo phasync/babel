@@ -1,0 +1,3 @@
+HOOK:strtoupper
+"?>X<?php echo \"never\"; ?>\n"
+"?>X<?php echo \"never\"; ?>\n"

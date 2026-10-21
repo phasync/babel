@@ -1,0 +1,10 @@
+A:HOOK:fopen
+B:HOOK:strtoupper
+B:HOOK:strtoupper
+A:HOOK:fopen
+A:HOOK:fopen|tail
+B:HOOK:strtoupper
+A:HOOK:fopen
+A:HOOK:fopen
+A:HOOK:fopen
+B:HOOK:strtoupper

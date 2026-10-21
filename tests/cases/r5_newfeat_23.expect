@@ -1,0 +1,33 @@
+bool(true)
+bool(true)
+bool(true)
+bool(false)
+bool(true)
+bool(true)
+bool(true)
+bool(true)
+bool(true)
+string(9) "Repl\Base"
+array(1) {
+  ["Repl\Contract"]=>
+  string(13) "Repl\Contract"
+}
+array(1) {
+  ["Repl\Base"]=>
+  string(9) "Repl\Base"
+}
+array(1) {
+  ["Repl\Tr"]=>
+  string(7) "Repl\Tr"
+}
+ArgumentCountError: is_a() expects at least 2 arguments, 0 given
+ArgumentCountError: class_exists() expects at most 2 arguments, 3 given
+bool(false)
+TypeError: class_exists(): Argument #1 ($class) must be of type string, array given
+bool(true)
+bool(true)
+string(14) "HOOK:array_map"
+array(1) {
+  [0]=>
+  string(10) "Orig\Thing"
+}

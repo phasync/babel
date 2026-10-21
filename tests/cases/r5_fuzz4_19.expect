@@ -1,0 +1,40 @@
+#136 'Orig\\K' 
+#146 false 
+rfn('x','y')
+#243 Error: Call to undefined method H::fh() a154
+#366 'Hx' 
+#369 'rfn()' 
+[["a!","b!"],"oref"]
+#1251 true 
+#1264 'ofn' 
+#1267 'inv(\'rfn(\\\'Orig\\\\\\\\K\\\')\')' Orig\K
+#1270 'rfn(\'s1269\')' s1269
+#1285 ["who[Repl\\K](a1283,b1283)","after"] a1283,b1283,after
+[["x!"],"oref","extra"]
+#1289 false 
+#2017 false 
+{"5":[3,2,1],"9":"ocmp"}
+[true,true]
+#2046 Error: Call to undefined method H::fha() a2027
+#2049 '\'rfn(\\\'s2048\\\')\'x' s2048
+'rfn(\'Orig\\\\K\')'
+[["x!"],"oref","extra"]
+#2084 TypeError: Cannot use "::class" on string 
+#2681 'inv(NULL)' 
+#2770 'm(who[Repl\\K]())' 
+#3880 Error: Call to undefined method H::fn() 
+#3910 NULL 
+#3935 ["Orig\\K","kh"] 
+[[3,2,1]]
+#4282 NULL 
+#4291 'rfn(\'who[Repl\\\\K](s4290)\')' s4290
+#4433 NULL 
+#5676 Error: Call to undefined method Repl\K::F() 
+#5837 'who[Repl\\K]()' 
+#6707 1 
+#6865 Error: Call to undefined method H::fh() 
+["who[Repl\\K](q)"]["Orig\\K::who",["q"]]
+#7322 TypeError: Cannot use "::class" on string 
+#7336 TypeError: Cannot use "::class" on null 
+#7381 'rfn(H)' 
+true

@@ -1,0 +1,4 @@
+call fopen('x') and new Orig\Thing and sleep(1)
+interp HOOK:fopen and HOOK:strtoupper and P
+fopen('x') {$o->m(fopen('a'))} Orig\Thing
+str HOOK:sleep fopen()

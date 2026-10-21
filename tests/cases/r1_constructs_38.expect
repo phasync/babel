@@ -1,0 +1,5 @@
+Error: Undefined constant "__COMPILER_HALT_OFFSET__"
+main ok
+HOOK:fopenundef
+Error: Undefined constant "__COMPILER_HALT_OFFSET__"
+

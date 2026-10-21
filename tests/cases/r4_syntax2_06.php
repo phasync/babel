@@ -1,0 +1,1 @@
+<?phpnamespace A;use Orig\Thing as T;echo fopen(  "x"), " ", __LINE__, "\n";eval("echo __LINE__, \" \", T::class ?? 1, \"\\n\";  echo __FILE__, \"\\n\";");$s = <<<H  {$x}  H;$c = T::class;echo new $c instanceof T ? "y" : "n", " ", __LINE__, "\n";trigger_error("w");

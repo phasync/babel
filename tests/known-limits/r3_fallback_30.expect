@@ -1,0 +1,4 @@
+App:is_a(Orig\Thing)
+App:is_a(Orig\Thing)
+App:class_exists(Orig\Thing)
+App:is_a(Orig\Thing)

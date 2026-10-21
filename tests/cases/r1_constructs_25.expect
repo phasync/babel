@@ -1,0 +1,5 @@
+cs:eval(x)
+cs:include(y)
+cs:require_once(y)
+c:eval(x)
+HOOK:fopen

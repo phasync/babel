@@ -1,0 +1,8 @@
+
+Warning: Undefined variable $undef in {DIR}/r5_evalidem_27.php on line 5
+TypeError: Only arrays and Traversables can be unpacked, null given
+bool(false)
+
+Warning: Undefined array key "nope" in {DIR}/r5_evalidem_27.php on line 12
+TypeError: Only arrays and Traversables can be unpacked, null given
+bool(false)

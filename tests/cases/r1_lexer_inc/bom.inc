@@ -1,0 +1,1 @@
+﻿<?php return [fopen("bom"), __LINE__];

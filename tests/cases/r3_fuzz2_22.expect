@@ -1,0 +1,108 @@
+array (
+  0 => '?Repl\\PDO',
+  1 => NULL,
+  2 => 'v',
+  3 => '?Repl\\PDO',
+)
+'HOOK:file_get_contents'
+array (
+  0 => 'Repl\\Thing',
+  1 => 'Repl\\Thing',
+)
+NULL
+NULL
+'NA\\Sub\\H0'
+'cl'
+'Repl\\Thing'
+true
+'Repl\\Thing'
+'Repl\\Thing'
+array (
+  0 => '?Repl\\Base',
+  1 => NULL,
+  2 => 'v',
+  3 => '?Repl\\Base',
+)
+'inv:ab'
+Repl\Thing''
+2
+array (
+  0 => 'ab',
+)
+array (
+  0 => 'Repl\\Base',
+  1 => 'Repl\\Thing',
+)
+'<Repl\\Thing>'
+'<Repl\\Thing>'
+'<cl>'
+'Repl\\Thing'
+array (
+  'p' => 'repl',
+)
+array (
+  0 => 'ab',
+)
+'repl'
+'HOOK:file_get_contents'
+false
+'NC:fopen:2'
+array (
+  0 => 
+  array (
+    0 => 2,
+    1 => 
+    array (
+      0 => 1,
+      1 => 2,
+      2 => 3,
+    ),
+    2 => 7,
+    3 => 
+    array (
+      0 => 1,
+      1 => 2,
+    ),
+    4 => 3,
+    5 => 3,
+  ),
+  'z' => 'Repl\\Base',
+)
+'NC:strtoupper:1'
+'inv:ab'
+array (
+  0 => 'Repl\\Base',
+  1 => 'Orig\\Thing',
+)
+0
+array (
+  0 => '?Repl\\Base',
+  1 => NULL,
+  2 => 'v',
+  3 => '?Repl\\Base',
+)
+'Repl\\Thing'
+array (
+  0 => '?Repl\\Contract',
+  1 => NULL,
+  2 => 'v',
+  3 => '?Repl\\Contract',
+)
+'Repl\\Thing'
+'list:PDO,OB'
+'NC:strtoupper:1'
+'NC:fopen:2'
+false
+true
+'Repl\\Thing'
+array (
+  0 => 'Repl\\Attr',
+  1 => 'HOOK:strtoupper',
+)
+'"NA\\\\Sub:fopen:2"|"list:fopen,Thing,strtoupper"'
+'HOOK:strtoupper'
+'Repl\\Base'
+array (
+  0 => 'repl',
+  1 => '<Repl\\Thing>',
+)

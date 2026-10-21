@@ -1,0 +1,6 @@
+HOOK:fopen HOOK:strtoupper HOOK:strtoupper HOOK:strtoupper
+HOOK:sleep Repl\Thing HOOK:fopen
+Value of type null is not callable
+NULL
+Value of type null is not callable
+NULL

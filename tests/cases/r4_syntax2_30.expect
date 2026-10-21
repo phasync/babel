@@ -1,0 +1,3 @@
+Function\sleep Repl\Thing
+HOOK:sleep Repl\Thing HOOK:usleep
+HOOK:sleep

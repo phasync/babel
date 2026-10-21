@@ -1,0 +1,9 @@
+HOOK:fopen_altHOOK:sleep
+HOOK:fopen_altHOOK:sleep
+HOOK:fopen_alt
+HOOK:fopentwo-own
+HOOK:fopen_altHOOK:sleep
+Two\Thing
+HOOK:fopenHOOK:sleep
+s
+Repl\Thing

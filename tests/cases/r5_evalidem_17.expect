@@ -1,0 +1,11 @@
+d1
+d2
+
+Warning: Undefined array key "nope" in {DIR}/r5_evalidem_17.php on line 8
+d3
+
+Warning: Undefined property: stdClass::$nope in {DIR}/r5_evalidem_17.php on line 9
+d4
+d5
+d6
+repl

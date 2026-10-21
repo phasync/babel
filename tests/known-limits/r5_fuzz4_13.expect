@@ -1,0 +1,7 @@
+bool(true)
+bool(false)
+bool(true)
+string(78) "TypeError: is_a(): Argument #3 ($allow_string) must be of type bool, int given"
+bool(true)
+string(78) "TypeError: is_a(): Argument #3 ($allow_string) must be of type bool, int given"
+string(81) "TypeError: class_exists(): Argument #1 ($class) must be of type string, int given"

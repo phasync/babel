@@ -1,0 +1,6 @@
+own-is_a(Orig\Thing) own-ce(Orig\Thing)
+Y Y own-is_a(Orig\Thing)
+Y Y own-is_a(Orig\Thing)
+own-ce(Orig\Thing) Y own-is_a(Orig\Thing)
+m-is_a(Orig\Thing)s-ce(Orig\Thing)
+YY

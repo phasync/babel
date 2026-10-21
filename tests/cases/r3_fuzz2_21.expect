@@ -1,0 +1,134 @@
+'HOOK:fopen'
+'Repl\\Thing'
+array (
+  0 => '?Repl\\Contract',
+  1 => NULL,
+  2 => 'v',
+  3 => '?Repl\\Contract',
+)
+'NB:file_get_contents:1'
+array (
+  0 => 2,
+  1 => 
+  array (
+    0 => 1,
+    1 => 2,
+    2 => 3,
+  ),
+  2 => 7,
+  3 => 
+  array (
+    0 => 1,
+    1 => 2,
+  ),
+  4 => 3,
+  5 => 3,
+)
+'Repl\\Base'
+'HOOK:fopen'
+'Repl\\Thing'
+0
+'<Repl\\Thing>'
+array (
+  0 => '?Repl\\PDO',
+  1 => NULL,
+  2 => 'v',
+  3 => '?Repl\\PDO',
+)
+'list:fopen,Thing,strtoupper'
+array (
+  0 => 'Repl\\Thing',
+  1 => 'Repl\\Thing',
+)
+array (
+  0 => 'Repl\\Attr',
+  1 => 'HOOK:strtoupper',
+)
+array (
+  0 => 'Repl\\Attr',
+  1 => 'HOOK:strtoupper',
+)
+'HOOK:strtoupper'
+'Repl\\Thing'
+'HOOK:fopen'
+array (
+  0 => 'Repl\\Attr',
+  1 => 'HOOK:strtoupper',
+)
+'Repl\\Base'
+true
+'repl'
+array (
+  0 => 'Repl\\Thing',
+  1 => true,
+)
+array (
+  0 => '?Repl\\Thing',
+  1 => NULL,
+  2 => 'v',
+  3 => '?Repl\\Thing',
+)
+true
+array (
+  0 => '?Repl\\Base',
+  1 => NULL,
+  2 => 'v',
+  3 => '?Repl\\Base',
+)
+'Repl\\Thing'
+'Repl\\Thing'
+'Repl\\Base'
+'NC:file_get_contents:1'
+'Default'
+'ab'
+'Repl\\Thing'
+array (
+  0 => 2,
+  1 => 
+  array (
+    0 => 1,
+    1 => 2,
+    2 => 3,
+  ),
+  2 => 7,
+  3 => 
+  array (
+    0 => 1,
+    1 => 2,
+  ),
+  4 => 3,
+  5 => 3,
+)
+array (
+  0 => 'Repl\\Base',
+  1 => 'repl',
+)
+'Repl\\Base'
+NULL
+'HOOK:strtoupper'
+'<Repl\\Thing>'
+array (
+  0 => 'Repl\\Attr',
+  1 => 'HOOK:strtoupper',
+)
+array (
+  0 => 'Repl\\Attr',
+  1 => 'HOOK:strtoupper',
+)
+true
+true
+'list:fopen,Thing,strtoupper'
+'<HOOK:fopen>'
+array (
+  0 => 'Repl\\Thing',
+  1 => 'Orig\\Thing',
+)
+'Repl\\Thing'
+'NA:strtoupper:1'
+'Repl\\Thingb'
+true
+'HOOK:strtoupper'
+'HOOK:file_get_contents'
+array (
+  0 => 'ab',
+)

@@ -1,0 +1,2 @@
+<?php
+echo fopen("x"), " ", basename(__FILE__), "\n";

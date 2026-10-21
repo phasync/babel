@@ -1,0 +1,3 @@
+local-sleep(2)
+App\sleep(): Argument #1 ($n) must be of type int, string given @3
+[{}]

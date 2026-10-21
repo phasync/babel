@@ -1,0 +1,7 @@
+loaded:wp-includes
+bool(true)
+HOOK:file_get_contents,HOOK:fopen,r2_functions.php,wp-includes
+HOOK:strtoupper
+init:HOOK:strtoupper:HOOK:sleep
+closure:HOOK:usleep
+arrow:HOOK:file_get_contents

@@ -1,0 +1,21 @@
+array(5) {
+  ["k"]=>
+  int(1)
+  ["z"]=>
+  int(9)
+  ["ref"]=>
+  &string(1) "R"
+  ["new"]=>
+  string(1) "S"
+  ["fk"]=>
+  string(1) "a"
+}
+int(1)
+int(8)
+bool(false)
+int(-1)
+int(1)
+NULL
+bool(false)
+bool(true)
+1

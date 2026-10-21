@@ -1,0 +1,3 @@
+HOOK:fopenHOOK:sleep
+{DIR}/r1_constructs_03.php(4) : eval()'d code(1) : eval()'d code
+{DIR}/r1_constructs_03.php(5) : eval()'d code(2) : eval()'d code

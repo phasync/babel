@@ -1,0 +1,2 @@
+inc:HOOK:fopen mf ev:1 require_oncer2_newcode_28.php __DIR__eval
+inc:same

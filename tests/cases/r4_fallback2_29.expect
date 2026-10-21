@@ -1,0 +1,3 @@
+HOOK:strtoupper+HOOK:fopen
+ce
+HOOK:strtoupper+HOOK:fopen local(c)

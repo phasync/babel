@@ -1,0 +1,13 @@
+["Repl\\Thing","Repl\\Thing","Repl\\Base","Repl\\Err",true,true,false,true,true,true]
+Orig\Sub\Thing Repl\Thing Orig\Sub\Thing Orig\Sub\Thing Repl\Thing
+bool(true)
+bool(false)
+bool(true)
+bool(true)
+bool(false)
+bool(true)
+bool(true)
+bool(true)
+bool(true)
+bool(false)
+Repl\Base app\Thing

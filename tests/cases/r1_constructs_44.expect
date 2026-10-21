@@ -1,0 +1,4 @@
+HOOK:fopen10
+HOOK:sleep1
+"CR\r\nLF fopen(1)\r\n"
+17

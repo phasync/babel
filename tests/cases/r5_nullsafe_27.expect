@@ -1,0 +1,25 @@
+string(10) "Orig\Thing"
+array(3) {
+  [0]=>
+  string(1) "A"
+  [1]=>
+  string(4) "repl"
+  [2]=>
+  string(10) "Orig\Thing"
+}
+string(10) "Orig\Thing"
+string(1) "A"
+string(1) "x"
+array(2) {
+  [0]=>
+  string(10) "Orig\Thing"
+  [1]=>
+  string(1) "A"
+}
+string(9) "Repl\Attr"
+string(10) "Orig\Thing"
+string(10) "Repl\Thing"
+string(10) "Repl\Thing"
+string(10) "Repl\Thing"
+NULL
+string(4) "repl"

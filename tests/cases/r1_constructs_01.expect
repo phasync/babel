@@ -1,0 +1,4 @@
+HOOK:fopen|va
+HOOK:strtoupper
+HOOK:sleep
+{DIR}/r1_constructs_01.php(7) : eval()'d code|1|{DIR}

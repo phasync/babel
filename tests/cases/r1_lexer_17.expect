@@ -1,0 +1,7 @@
+{ {
+  } } } unbalanced { brace
+HOOK:sleep
+}v{
+v unbalanced { brace
+Repl\Thing
+HOOK:strtoupper

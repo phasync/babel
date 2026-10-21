@@ -1,0 +1,13 @@
+
+Deprecated: Using ${expr} (variable variables) in strings is deprecated, use {${expr}} instead in {DIR}/r5_syntax3_14.php on line 7
+
+Deprecated: Using ${expr} (variable variables) in strings is deprecated, use {${expr}} instead in {DIR}/r5_syntax3_14.php on line 13
+VAR|HOOK:strtoupper|
+HOOK:strtoupper
+HOOK:strtoupper|HOOK:strtoupper
+HOOK:strtoupperHOOK:strtoupper
+Repl\Thingrepl
+VAR|HOOK:strtoupper|Repl\Thing|HOOK:strtoupper
+xHOOK:strtouppery
+{$f()('q')}
+HOOK:strtoupperHOOK:strtoupper

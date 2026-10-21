@@ -1,0 +1,3 @@
+made: Repl\Thing | mapped-key | orig-key | HOOK:strtoupper | HOOK:strtoupper
+<div class="Repl\Base">HOOK:sleep mapped-key</div>
+{$app->make(Thing::class)} fopen('x') new Thing

@@ -1,0 +1,40 @@
+#63 1 
+[["x!"],"oref","extra"]
+#78 'rrefNULL' a65,
+#81 'rfn(\'Orig\\\\K\')' 
+#101 Error: Class name must be a valid object or a string ac
+#256 'ofn' 
+#340 'Hx' 
+#380 Error: Class name must be a valid object or a string Orig\K
+#455 'who[Repl\\K]()' 
+#458 ["rfn(NULL)","after"] ,after
+#463 ["Repl\\K","after"] after
+#778 2 
+#922 NULL a782,b782,after
+#948 Error: Cannot use object of type Repl\K as array 
+[{"a":2,"b":1},"ocmp"]
+#1434 'Orig\\K' 
+#1479 'Orig\\K' 
+#1955 'rfn(\'who[Repl\\\\K](\\\'Orig\\\\\\\\K\\\')\')' 
+#2137 H a1990
+#2175 [null,"rfn()"] 
+#2246 NULL 
+#2647 NULL 
+#2667 TypeError: Cannot use "::class" on null 
+#2816 Error: Call to undefined method Repl\K::F() 
+#3304 false 
+#3307 false a3306,b3306
+#3373 'rfn(\'Orig\\\\K!\')' 
+#3396 H 
+[true,false,true]
+#3625 ["ofn","after"] after
+#3647 NULL 
+#4588 'rfn(\'O\')' 
+#4591 '\'rfn(\\\'\\\\\\\'rfn(\\\\\\\\\\\\\\\'a4590\\\\\\\\\\\\\\\',\\\\\\\\\\\\\\\'b4590\\\\\\\\\\\\\\\')\\\\\\\'\\\')\'' a4590,b4590
+#4612 H 
+#5271 ["Orig\\K","after"] a4616,b4616,after
+#5276 'inv(\'m(a5273)\')' a5273
+#5278 'rfn()' 
+#5503 false 
+#5588 'rfn(\'Orig\\\\K!\')' 
+#5593 Closure 

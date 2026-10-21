@@ -1,0 +1,5 @@
+[3,1,2]
+[3,1,2]
+HOOK:strtoupperHOOK:strtoupper 2
+HOOK:strtoupperHOOK:strtoupperHOOK:strtoupper 3
+HOOK:strtoupperHOOK:strtoupperHOOK:strtoupperHOOK:strtoupper 4

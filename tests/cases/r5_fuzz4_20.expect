@@ -1,0 +1,39 @@
+#132 ["ofn",null] 
+#135 'rfn()' 
+#529 Error: Class name must be a valid object or a string 
+#534 Repl\K 
+#544 false 
+#595 Error: Call to undefined method H::fn() 
+#1580 ["Orig\\K",null] 
+#1784 1 Orig\K
+#1795 'rrefH' 
+#1863 1 
+#1893 'who[Repl\\K]()' 
+#1976 Error: Class name must be a valid object or a string a1954,b1954,s1962
+#2100 'Orig\\K' 
+#2186 Error: Call to undefined method H::fn() 
+[true,true]
+#2443 1 
+#2894 'Orig\\K' 
+#2917 Error: Class name must be a valid object or a string a2897
+#3462 false 
+#3506 'app\\ofn:["ofn"]' 
+#3509 'rfn(\'who[Repl\\\\K](\\\'rfn(NULL)\\\')\')' 
+[true,true]
+#3525 TypeError: Cannot use "::class" on null 
+#3535 Error: Call to undefined method Repl\K::F() 
+#3723 Error: Call to a member function me() on null 
+[{"a":2,"b":1},"ocmp"]
+#3732 'm(m(ofn))' 
+#3766 ["who[Repl\\K](a3741,b3741)","m(a3763,b3763)"] a3741,b3741,a3763,b3763
+#3774 false a3767
+#3777 false n3776
+#4247 'H' 
+#4335 'rfn(\'Orig\\\\K\')' Orig\K
+#4666 1 
+#5108 NULL 
+#5763 Error: Call to undefined method H::fn() 
+#5837 NULL 
+#5840 'rfn(\'n5839\')' n5839
+#5843 'rfn(\'s5842\')' s5842
+#5884 1 

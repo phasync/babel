@@ -1,0 +1,1 @@
+<?php namespace Q; use function Hook\fopen_alt as fopen; return [fopen("z"), __NAMESPACE__, basename(__FILE__), basename(__DIR__)];

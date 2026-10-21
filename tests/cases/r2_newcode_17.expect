@@ -1,0 +1,4 @@
+a,b Repl\Thing Repl\Base
+HOOK:strtoupper1
+Repl\Base|Repl\PDO
+$b::setRepl\Attr

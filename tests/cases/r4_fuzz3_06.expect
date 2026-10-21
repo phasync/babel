@@ -1,0 +1,3 @@
+HOOK:strtoupper HOOK:fopen
+HOOK:strtoupper HOOK:strtoupper HOOK:strtoupper HOOK:fopen
+NA:d

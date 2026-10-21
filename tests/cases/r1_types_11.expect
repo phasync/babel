@@ -1,0 +1,5 @@
+Repl\Thing
+a: Repl\Thing / Repl\Thing
+b: ?Repl\Base / ?Repl\Base
+Repl\Thing|Repl\Base|null
+rejects

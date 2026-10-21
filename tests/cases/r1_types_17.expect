@@ -1,0 +1,4 @@
+Repl\Thing,?Repl\Base,=>Repl\Thing|Repl\Base
+?Repl\Base,Repl\Thing,=>Repl\Base|Repl\Thing|null
+Repl\Thing&Repl\Contract,=>?Repl\Thing
+rejects

@@ -1,0 +1,12 @@
+a=Repl\Thing b=?Repl\Base c=Repl\Thing|Repl\Base|null d=Repl\Contract|Repl\Base e=?Repl\Thing 
+inst=?Repl\Thing ro=Repl\Thing|Repl\Base nb=?Repl\Base nb2=?Repl\Base legacy=Repl\Thing sp=?Repl\Thing 
+T=?Repl\Thing U=Repl\Thing|Repl\Base|null V=Repl\Thing|Repl\Base|null NAME=string 
+make: ?Repl\Thing <- Repl\Thing,
+sm: Repl\Thing|static <- Repl\Base,
+Repl\Thing Repl\Thing ?Repl\Base Repl\Thing|string
+Repl\Thing Repl\Base
+Repl\Thing
+TypeError method
+TypeError promoted
+TypeError static prop
+Repl\Thing

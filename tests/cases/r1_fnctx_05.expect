@@ -1,0 +1,4 @@
+fn:1,HOOK:fopen
+function:HOOK:fopen,HOOK:sleep
+new:HOOK:strtoupper
+fn:HOOK:fopen

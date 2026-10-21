@@ -1,0 +1,10 @@
+["shebang-not-skipped-in-include","HOOK:fopen",2]
+﻿["HOOK:fopen",1]
+["HOOK:fopen_alt","Q","ns.inc","r1_lexer_inc"]
+["HOOK:fopen",3," x",7]
+"inline html fopen(x)\ntail HOOK:sleep"HOOK:fopen
+﻿2
+Q
+true
+true
+﻿2

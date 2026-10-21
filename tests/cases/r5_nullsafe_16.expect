@@ -1,0 +1,10 @@
+Repl\Thing obj,1,'m','get:cls',2
+Repl\Thing obj,1,'m','get:x','get:y',9,'id',3
+repl obj,1,'m','get:x','get:y',2,'cs:zz'
+NULL
+NULL
+Repl\ThingRepl\Thing obj,'get:x',1,'cs:zz',obj,'get:y',2,'cs:zz'
+Repl\Thing obj,'get:x',1,'cs:zz',obj,'get:y',2,'cs:zz'
+Repl\Thing obj,'cls','get:cls',1
+Repl\Thing obj,1,NULL,3,'m','get:cls'
+Repl\Thing 4 obj,'m','cs:zz'

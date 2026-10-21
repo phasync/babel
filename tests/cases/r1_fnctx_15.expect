@@ -1,0 +1,2 @@
+method-fopen HOOK:fopen
+Repl\Thing ?Repl\Thing

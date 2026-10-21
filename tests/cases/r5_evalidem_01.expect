@@ -1,0 +1,3 @@
+handler: Non-canonical cast (integer) is deprecated, use the (int) cast instead @ r5_evalidem_01.php(7) : eval()'d code:1
+HOOK:fopen 5
+done

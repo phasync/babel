@@ -1,0 +1,14 @@
+string(2) "L1"
+array(2) {
+  [0]=>
+  int(10)
+  ["k"]=>
+  int(20)
+}
+string(2) "L2"
+string(2) "L3"
+bool(true)
+bool(false)
+bool(false)
+w1
+w1!

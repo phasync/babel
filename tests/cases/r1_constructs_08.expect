@@ -1,0 +1,7 @@
+HOOK:fopen
+4HOOK:fopen
+2
+HOOK:fopen
+HOOK:sleep
+ok
+ab

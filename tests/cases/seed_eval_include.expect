@@ -1,0 +1,3 @@
+5HOOK:fopen|{DIR}/seed_eval_include.php(5) : eval()'d code
+["q",5,"HOOK:fopen","HOOK:fopen"]
+seed_eval_include.php cases

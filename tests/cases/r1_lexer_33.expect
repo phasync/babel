@@ -1,0 +1,5 @@
+Repl\ThingRepl\BaseRepl\Thing
+x Repl\Thing
+y Repl\Base|Repl\Thing
+p Repl\Thing
+HOOK:fopen

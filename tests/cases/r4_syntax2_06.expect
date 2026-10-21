@@ -1,0 +1,8 @@
+HOOK:fopen 6
+1 T
+{DIR}/r4_syntax2_06.php(8) : eval()'d code
+
+Warning: Undefined variable $x in {DIR}/r4_syntax2_06.php on line 12
+y 15
+
+Notice: w in {DIR}/r4_syntax2_06.php on line 16

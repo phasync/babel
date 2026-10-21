@@ -1,0 +1,13 @@
+int(1)
+W: include(5): Failed to open stream: No such file or directory @7
+W: include(): Failed opening '5' for inclusion (include_path='.:/usr/share/php') @7
+bool(false)
+ValueError: Path must not be empty
+W: Undefined variable $undefined @9
+ValueError: Path must not be empty
+bool(false)
+ParseError: syntax error, unexpected end of file
+int(5)
+W: Array to string conversion @13
+ParseError: syntax error, unexpected end of file, expecting "("
+end

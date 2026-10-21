@@ -1,0 +1,8 @@
+<ul>
+  <li class="HOOK:strtoupper">Repl\Thing</li>
+    <li>Repl\Base Repl\Base</li>
+    <li>Orig\Thing</li></ul>
+<b>repl</b>
+<b>Repl\Base</b>
+first is thing HOOK:fopen[Repl\Thing]
+Repl\Base

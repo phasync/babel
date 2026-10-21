@@ -1,0 +1,8 @@
+dup:Repl\Err domain -
+finally 0
+critical:PDOException db Repl\Err
+finally 1
+caught other
+finally 2
+Repl\Err no db
+handler: dup:Repl\Err

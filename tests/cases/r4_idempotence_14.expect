@@ -1,0 +1,4 @@
+SIDE string(9) "called(1)"
+SIDE string(9) "called(1)"
+Error: Value of type null is not callable
+TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, no array or string given

@@ -1,0 +1,9 @@
+Repl\PDO same
+Repl\Tr Repl\Tr Greets
+Repl\Thing
+Traits\UsesDb,Repl\Tr,Traits\Greets
+Traits\UsesDb,Repl\Tr,Traits\Greets
+bool(true)
+bool(true)
+bool(true)
+Repl\Thing ?Repl\Thing

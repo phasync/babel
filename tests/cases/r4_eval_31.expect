@@ -1,0 +1,1 @@
+HOOK:fopen r4_eval_31 eval()'d code

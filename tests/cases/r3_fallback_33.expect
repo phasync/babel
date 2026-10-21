@@ -1,0 +1,3 @@
+HOOK:fopen HOOK:fopen HOOK:fopen ns:fopen ns:fopen
+HOOK:strtoupper App\List\Fn
+ns:strtoupper HOOK:strtoupper ns:strtoupper

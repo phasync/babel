@@ -1,0 +1,17 @@
+lint: ok
+idempotent: yes
+H:'true-branch.php'
+string(6) "TARGET"
+H:'false-branch.php'
+string(6) "TARGET"
+H:'yes'
+string(6) "TARGET"
+H:'match-arm.php'
+string(6) "TARGET"
+H:'call-branch.php'
+array(2) {
+  [0]=>
+  string(6) "TARGET"
+  [1]=>
+  string(10) "second-arg"
+}

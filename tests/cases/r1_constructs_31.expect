@@ -1,0 +1,8 @@
+Repl\Thing|HOOK:strtoupper|Q
+Repl\PDO ?Repl\Thing ?Repl\Base
+Repl\Base repl Repl\PDO|Repl\Err|null
+[true,true,true,"Repl\\Thing","Repl\\Thing",true]
+"Repl\\Err"
+Repl\Base
+Repl\Tr
+Repl\Attr

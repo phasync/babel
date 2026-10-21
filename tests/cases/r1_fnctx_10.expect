@@ -1,0 +1,3 @@
+HOOK:fopenHOOK:fopenHOOK:fopenHOOK:sleepHOOK:usleepHOOK:strtoupperHOOK:fopen
+HOOK:fopenHOOK:strtoupperHOOK:usleepHOOK:sleep
+Hook\fopen

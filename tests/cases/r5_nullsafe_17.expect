@@ -1,0 +1,28 @@
+string(10) "Repl\Thing"
+NULL
+string(4) "repl"
+string(10) "Repl\Thing"
+NULL
+string(4) "repl"
+NULL
+string(10) "Repl\Thing"
+string(10) "Repl\Thing"
+string(10) "Repl\Thing"
+tr(nil) NULL
+string(10) "Repl\Thing"
+NULL
+string(10) "Repl\Thing"
+NULL
+string(10) "Repl\Thing"
+string(10) "Repl\Thing"
+W: Undefined variable $class
+NULL
+W: Undefined variable $o
+NULL
+string(10) "Repl\Thing"
+string(10) "Repl\Thing"
+W: Undefined variable $n
+W: Undefined property: P::$
+Error: Class name must be a valid object or a string
+string(10) "Repl\Thing"
+tr(class) string(10) "Repl\Thing"

@@ -1,0 +1,8 @@
+[["B","HOOK:fopen","dupB"],["A-only","HOOK:sleep"]]
+[["C","HOOK:fopen","dupC"],["A-only","HOOK:sleep"]]
+[["A","HOOK:fopen","dupA"],["A-only","HOOK:sleep"]]
+[["C","HOOK:fopen","dupC"],["A-only","HOOK:sleep"]]
+[["B","HOOK:fopen","dupB"],["A-only","HOOK:sleep"]]
+["B","HOOK:fopen","dupB"]
+["C","HOOK:fopen","dupC"]
+["C","HOOK:fopen","dupC"]

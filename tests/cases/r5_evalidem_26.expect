@@ -1,0 +1,6 @@
+0 Access to undeclared static property Repl\Thing::$nope
+1 Access to undeclared static property Repl\Thing::$nope
+2 Access to undeclared static property Repl\Thing::$nope
+3 Access to undeclared static property Repl\Thing::$nope
+4 Access to undeclared static property Repl\Thing::$nope
+string(2) "d6"

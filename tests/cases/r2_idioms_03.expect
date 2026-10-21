@@ -1,0 +1,16 @@
+/**
+ * @ORM\Entity(repositoryClass="Orig\Thing")
+ * @ORM\Table(name="things")
+ * @see Thing::class, new Thing(), fopen('x'), PDO::ATTR_ERRMODE
+ * @method static Thing find(int $id)
+ */
+/**
+     * @ORM\Column(type="string") @var Thing
+     * @ORM\ManyToOne(targetEntity=Thing::class)
+     */
+?Repl\Thing
+/** @param Thing $t  @return Thing|null  {@see \Orig\Thing::who()} */
+?Repl\Thing
+Repl\Base
+Repl\Thing
+Repl\Base

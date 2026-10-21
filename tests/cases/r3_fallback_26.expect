@@ -1,0 +1,3 @@
+Lib:fopen Lib:fopen HOOK:strtoupper App:strtoupper HOOK:usleep
+HOOK:strtoupper HOOK:fopen
+App:strtoupper

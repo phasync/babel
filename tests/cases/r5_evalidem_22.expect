@@ -1,0 +1,5 @@
+method:x method:y static:evalx const prop EVAL
+{"eval":1} {"eval":2}
+method:w method:v static:evalz
+HOOK:strtoupper HOOK:fopen
+HOOK:strtoupper

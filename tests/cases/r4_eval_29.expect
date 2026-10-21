@@ -1,0 +1,13 @@
+HOOK:strtoupper
+K::m
+Repl\Thing
+Repl\Thing
+bool(true)
+v
+null
+y1
+sent
+thrown
+printed
+stdClass
+HOOK:fopen

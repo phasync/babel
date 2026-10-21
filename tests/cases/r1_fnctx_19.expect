@@ -1,0 +1,3 @@
+HOOK:fopenHOOK:sleepHOOK:usleepHOOK:strtoupperHOOK:file_get_contentsother-curl
+cls-fopen cls-thing KOther\Thing
+HOOK:fopen

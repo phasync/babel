@@ -1,0 +1,7 @@
+HOOK:fopenHOOK:sleepHOOK:strtoupper
+HOOK:file_get_contents|
+ fopen("data") <?php sleep(1); ?> 
+line2 usleep(1) __FILE__ __COMPILER_HALT_OFFSET__
+|
+off-ok
+ fopen("data") <?php sleep(1); ?> 

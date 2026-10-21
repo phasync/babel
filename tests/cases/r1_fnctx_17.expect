@@ -1,0 +1,14 @@
+case-call
+case-const
+HOOK:fopen,HOOK:usleep
+alt-if
+HOOK:fopen
+alt-while
+HOOK:fopen1
+HOOK:fopenT0
+HOOK:fopen HOOK:sleep HOOK:usleep HOOK:strtoupper
+HOOK:fopen
+HOOK:fopen
+HOOK:fopen
+inline HOOK:fopen html HOOK:sleep
+end

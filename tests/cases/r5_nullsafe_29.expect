@@ -1,0 +1,8 @@
+1 Orig\Thing::who() ::who()
+2 Orig\Thing::who()
+
+Warning: Array to string conversion in {DIR}/r5_nullsafe_29.php on line 8
+3 Array[k]::who()
+4 Orig\Thing::who() Orig\Thing::X
+5 $a?->b::who()
+6 Repl\Thingx

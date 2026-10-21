@@ -1,0 +1,4 @@
+HOOK:strtoupper
+HOOK:file_get_contents
+HOOK:usleep
+HOOK:strtoupper HOOK:fopen

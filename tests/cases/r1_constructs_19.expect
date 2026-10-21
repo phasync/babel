@@ -1,0 +1,5 @@
+["HOOK:fopen","payload fopen('x') <?php echo 1 ?>\ntail\n",true]
+has
+HOOK:fopen
+DATA fopen('d')
+|

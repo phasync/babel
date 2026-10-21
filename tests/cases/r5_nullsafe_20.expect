@@ -1,0 +1,15 @@
+string(10) "Repl\Thing"
+Error: Value of type null is not callable
+string(10) "Repl\Thing"
+string(10) "Repl\Thing"
+string(6) "H::who"
+W: Undefined variable $f
+Error: Method name must be a string
+NULL
+string(10) "Repl\Thing"
+string(6) "H::who"
+string(10) "Repl\Thing"
+string(10) "Repl\Thing"
+string(10) "Repl\Thing"
+NULL
+string(10) "Repl\Thing"

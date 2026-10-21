@@ -1,0 +1,214 @@
+Repl\Base
+array (
+  0 => '<>',
+  1 => '',
+)
+Repl\Thing
+array (
+  0 => 'Repl\\Thing',
+  1 => 'repl',
+)
+array (
+  0 => '(Repl\\Contract&Countable)|null',
+  1 => NULL,
+  2 => 'v',
+  3 => '(Repl\\Contract&Countable)|null',
+)
+array (
+  0 => 
+  array (
+    0 => '<Repl\\Thing|HOOK:fopen>',
+    1 => '',
+  ),
+)
+HOOK:strtoupper
+Repl\Thing
+array (
+  0 => NULL,
+  1 => '',
+)
+array (
+  0 => 'Orig\\Thing::who',
+  1 => '<Repl\\Thing>',
+)
+Repl\Thing
+Repl\Base
+Repl\Thing
+array (
+  0 => '?Repl\\Thing',
+  1 => NULL,
+  2 => 'v',
+  3 => '?Repl\\Thing',
+)
+'HOOK:file_get_contents'
+array (
+  0 => 'Repl\\Thing',
+  1 => 'Repl\\Thing',
+)
+'repl'
+'req1'
+inline31
+'Repl\\Thing'
+array (
+  0 => 'repl',
+  1 => 'Orig\\Thing',
+)
+array (
+  0 => 'Orig\\Thing',
+  1 => 'repl',
+)
+array (
+  0 => '?Repl\\Thing',
+  1 => NULL,
+  2 => 'v',
+  3 => '?Repl\\Thing',
+)
+array (
+  0 => '<strtoupper>',
+  1 => '',
+)
+'Repl\\Thing'
+array (
+  0 => '?Repl\\Thing',
+  1 => NULL,
+  2 => 'v',
+  3 => '?Repl\\Thing',
+)
+'"Repl\\\\Base"|["<HOOK:fopen>",""]'
+'HOOK:strtoupper'
+array (
+  0 => '<HOOK:strtoupper>',
+  1 => '',
+)
+'Repl\\Thing'
+Repl\Thing
+Repl\Thing
+Repl\Thing
+true
+Repl\Thing
+array (
+  0 => NULL,
+  1 => '',
+)
+array (
+  0 => '?Repl\\PDO',
+  1 => NULL,
+  2 => 'v',
+  3 => '?Repl\\PDO',
+)
+array (
+  0 => NULL,
+  1 => '',
+)
+true
+array (
+  0 => '<HOOK:strtoupper|HOOK:strtoupper>',
+  1 => '',
+)
+'cl'
+'HOOK:file_get_contents'
+array (
+  0 => '<Orig\\Thing|Repl\\Thing>',
+  1 => '',
+)
+'m:fcc'
+'NA:class_implements:["Orig\\\\Thing"]'
+'m:d'
+["HOOK:strtoupper",""]
+array (
+  0 => '?Repl\\Contract',
+  1 => NULL,
+  2 => 'v',
+  3 => '?Repl\\Contract',
+)
+array (
+  0 => NULL,
+  1 => '',
+)
+array (
+  0 => 'repl',
+  1 => 'Repl\\Thing',
+)
+'Repl\\ThingRepl\\Base345'
+'Repl\\Thing'
+array (
+  0 => false,
+  'z' => 'NA:property_exists:["Orig\\\\Thing","p"]',
+)
+'Repl\\Thing'
+array (
+  0 => 'repl',
+  1 => '',
+)
+array (
+  0 => '<strtoupper|Repl\\Thing|Repl\\Thing>',
+  1 => 'J',
+)
+array (
+  0 => '(Repl\\Contract&Countable)|null',
+  1 => NULL,
+  2 => 'v',
+  3 => '(Repl\\Contract&Countable)|null',
+)
+array (
+  0 => 'Orig\\Thing::who',
+  1 => 'Repl\\Thing',
+)
+Repl\Thing
+'Repl\\Thing'
+array (
+  0 => '<Repl\\Thing>',
+  1 => 'Repl\\Base',
+)
+Repl\Thing
+'Default'
+'HOOK:fopen'
+array (
+  0 => 'HOOK:file_get_contents',
+)
+'HOOK:fopen'
+'Orig\\Thing'
+Repl\Thing
+'Repl\\Base'
+'"iss"x'
+array (
+  0 => '<HOOK:strtoupper> Orig\\Thing',
+  1 => '',
+)
+array (
+  0 => NULL,
+  1 => '',
+)
+Repl\Base
+HOOK:fopen
+false
+'repl'
+'cl'
+true
+array (
+  0 => '?Repl\\PDO',
+  1 => NULL,
+  2 => 'v',
+  3 => '?Repl\\PDO',
+)
+Repl\Base
+array (
+  0 => 'Repl\\Thing',
+  1 => 'Orig\\Thing::who',
+)
+array (
+  0 => NULL,
+  1 => '',
+)
+array (
+  0 => false,
+  'z' => NULL,
+)
+HOOK:strtoupper
+Repl\Base
+'Repl\\Thing'
+true
+array (
+  0 => 'Repl\\Attr',
+  1 => 'HOOK:strtoupper',
+)

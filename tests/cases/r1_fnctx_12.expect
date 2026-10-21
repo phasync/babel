@@ -1,0 +1,4 @@
+HOOK:fopen HOOK:strtoupperHOOK:sleep HOOK:usleep HOOK:fopen
+HOOK:strtoupper
+HOOK:fopen["HOOK:sleep"]
+["HOOK:fopen","HOOK:sleep","HOOK:usleep"]

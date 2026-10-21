@@ -1,0 +1,4 @@
+CompileError: Multiple access type modifiers are not allowed @ r5_syntax3_04.php(11) : eval()'d code:1
+CompileError: Cannot use the final modifier on an abstract class @ r5_syntax3_04.php(11) : eval()'d code:1
+CompileError: Multiple final modifiers are not allowed @ r5_syntax3_04.php(11) : eval()'d code:1
+end

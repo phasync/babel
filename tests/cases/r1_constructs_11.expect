@@ -1,0 +1,14 @@
+["HOOK:fopen","r1_inc_a.php","fixtures",2,"","nolocal"]
+HOOK:fopen
+3
+["HOOK:fopen","r1_inc_a.php","fixtures",2,"","nolocal"]
+r1_inc_a.php
+2HOOK:fopen
+HOOK:fopen/r1_inc_a.php
+HOOK:fopen/r1_inc_a.php
+bool(true)
+bool(true)
+cond
+HOOK:fopen
+HOOK:fopen
+bool(false)

@@ -1,0 +1,3 @@
+HOOK:strtoupper HOOK:strtoupper Lib:up HOOK:strtoupper/Other:strtoupper2 App:strtoupper
+App:strtoupper HOOK:fopen
+App:fopen App:fopen

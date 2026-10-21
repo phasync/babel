@@ -1,0 +1,4 @@
+HOOK:strtoupper HOOK:fopen HOOK:fopen_alt
+HOOK:strtoupper HOOK:fopen HOOK:fopen_alt
+App:fopen HOOK:strtoupper
+HOOK:strtoupper HOOK:fopen HOOK:fopen_alt

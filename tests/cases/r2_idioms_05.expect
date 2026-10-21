@@ -1,0 +1,11 @@
+parent is Repl\PDO
+bool(true)
+bool(true)
+bool(true)
+Repl\PDO Repl\PDO
+PDOException: cannot run: SELECT 1
+App\Db\Db
+PDOException Repl\PDO App\Db\Db
+bool(true)
+bool(true)
+bool(true)

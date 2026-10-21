@@ -1,0 +1,19 @@
+truetruetruetruefalse
+truefalse
+truefalsefalsefalse
+truetruefalsetruetruefalse
+truetruetruetruetrue
+'Exception''Exception'
+array (
+)array (
+  'Exception' => 'Exception',
+)array (
+)
+array (
+  0 => 'who',
+)array (
+  'p' => 'repl',
+)
+Repl\ThingRepl\BaseRepl\Thing
+Repl\ThingRepl\ThingRepl\Thing
+Exception

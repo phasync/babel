@@ -1,0 +1,7 @@
+r1_constructs_35.php cases
+r1_constructs_35.php:12 cases r1_constructs_35.php dir-ok
+["r1_constructs_35.php","<DIR>/x","r1_constructs_35.php","HOOK:fopen","r1_constructs_35.php"]
+r1_constructs_35.php ok
+r1_constructs_35.php
+__FILE__ in string, __DIR__ single // __FILE__ comment
+heredoc __FILE__ __DIR__ eval('x') include 'y'

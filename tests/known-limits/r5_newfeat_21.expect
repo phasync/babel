@@ -1,0 +1,16 @@
+bool(true)
+bool(true)
+bool(true)
+bool(true)
+Error: Cannot use positional argument after named argument during unpacking
+bool(true)
+ArgumentCountError: is_a(): Argument #1 ($object_or_class) not passed
+bool(true)
+bool(true)
+string(30) "HOOK:strtoupperHOOK:strtoupper"
+string(30) "HOOK:strtoupperHOOK:strtoupper"
+TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, function "Orig\Thing" not found or invalid function name
+string(10) "Repl\Thing"
+string(15) "HOOK:strtoupper"
+Error: Unknown named parameter $nope
+int(2)

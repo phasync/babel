@@ -1,0 +1,3 @@
+<?php /*phasync-babel:MAP*/
+namespace a;
+echo \phasync\Babel\Runtime::ns('ff9bc74cb1:8', 'a\\trim', 'a\\trim', 'Hook\\trim')(1), \Hook\strlen(2); new \Repl\Big\Cls7;

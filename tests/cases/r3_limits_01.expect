@@ -1,0 +1,9 @@
+HOOK:fopen HOOK:sleep HOOK:usleep HOOK:fopen
+HOOK:strtoupper a
+Repl\Thing Repl\Thing HOOK:sleep
+Repl\Thing repl repl true
+bool(true)
+bool(true)
+bool(true)
+Repl\Thing Repl\Thing
+HOOK:fopen HOOK:strtoupper

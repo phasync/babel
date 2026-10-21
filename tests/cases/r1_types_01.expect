@@ -1,0 +1,20 @@
+plain: ok TypeError
+nullable: ok TypeError
+union: ok TypeError
+variadic: 1 TypeError
+byref: ok TypeError
+ok ok ok
+string(10) "Orig\Thing"
+union rejects Orig\Base
+2
+variadic rejects Orig
+2
+Repl\Thing Repl\Base repl Repl\Thing
+plain: Repl\Thing 
+nullable: ?Repl\Thing 
+union: Repl\Thing|Repl\Base|null 
+variadic: Repl\Thing 
+byref: Repl\Thing 
+byrefvar: ?Repl\Base 
+def: Repl\Thing    
+dnf: (Repl\Thing&Repl\Contract)|null Repl\Thing|int 

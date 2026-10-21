@@ -1,0 +1,9 @@
+Error: Call to undefined function eval()
+Error: Call to undefined function eval()
+TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, function "eval" not found or invalid function name
+Error: Call to undefined function eval()
+string(14) "HOOK:array_map"
+bool(false)
+bool(false)
+TypeError: Failed to create closure from callable: function "eval" not found or invalid function name
+TypeError: usort(): Argument #2 ($callback) must be a valid callback, function "eval" not found or invalid function name

@@ -1,0 +1,3 @@
+HOOK:fopen
+off
+39 fopen('data') {{ <?php echo "never"; ?>

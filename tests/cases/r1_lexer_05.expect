@@ -1,0 +1,9 @@
+HOOK:fopen
+HOOK:strtoupper1
+HOOK:strtoupper2
+HOOK:fopen
+HOOK:sleep
+HOOK:file_get_contents
+HOOK:fopen
+HOOK:fopen
+HOOK:sleep

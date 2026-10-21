@@ -1,0 +1,7 @@
+
+Warning: Cannot pass by-reference argument 1 of usort() by unpacking a Traversable, passing by-value instead in {DIR}/r5_newfeat_07.php on line 5
+bool(true)
+
+Warning: Cannot pass by-reference argument 1 of usort() by unpacking a Traversable, passing by-value instead in {DIR}/r5_newfeat_07.php on line 7
+bool(true)
+[2,1]

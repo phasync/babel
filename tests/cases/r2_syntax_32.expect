@@ -1,0 +1,3 @@
+implements,x=1,HOOK:fopen
+extends,y=1,HOOK:strtoupper
+insteadof=HOOK:sleep

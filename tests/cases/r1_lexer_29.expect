@@ -1,0 +1,10 @@
+HOOK:fopen11
+3
+HOOK:fopen:3
+same
+evalfile
+BHOOK:fopen
+text fopen() HOOK:sleep
+HOOK:usleep
+eval("return 1;")
+HOOK:fopen1

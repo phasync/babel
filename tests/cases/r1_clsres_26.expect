@@ -1,0 +1,3 @@
+["new PDO; Thing::class; $cls::who(); function (PDO $p)","PDO::class and $x instanceof Thing and P","new Thing; Thing::class; PDO::class","function z(Thing $t): PDO { return $t instanceof PDO; } is_a($x, 'Orig\\Thing')",{"Orig\\Thing":"PDO","k":"Thing"},"Orig\\Thing","Orig\\Thing"]
+new PDO; Thing::class; instanceof Thing; is_a($x, 'Orig\Thing');
+end

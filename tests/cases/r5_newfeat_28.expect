@@ -1,0 +1,4 @@
+HOOK:strtoupper
+HOOK:strtoupper
+fn:abc
+HOOK:strtoupper

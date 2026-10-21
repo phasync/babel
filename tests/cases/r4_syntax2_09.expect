@@ -1,0 +1,9 @@
+Hearts=HOOK:strtoupperHOOK:fopen
+List=HOOK:strtoupperHOOK:fopen
+Default=HOOK:strtoupperApp\Suit
+PDO=HOOK:strtoupperRepl\Thing
+fopen=HOOK:strtoupperApp\Suit
+PDO n f static-fopen 2
+HOOK:strtoupperRepl\Thing C
+Repl\Thing
+Repl\Thing

@@ -1,0 +1,5 @@
+eval frame line 5
+1 r4_eval_23.php(13) : eval()'d code 13
+warn: Array to string conversion @r4_eval_23.php:18
+
+Parse error: syntax error, unexpected end of file, expecting "(" in {DIR}/r4_eval_23.php(18) : eval()'d code on line 1

@@ -1,0 +1,7 @@
+HOOK:strtoupper
+HOOK:file_get_contents
+HOOK:strtoupper HOOK:strtoupper HOOK:strtoupper
+Repl\Thing\{strtoupper('x')} fopen('y') HOOK:strtoupper PDO
+tab Repl\Thing|  {$c::who()}
+0 26
+HOOK:strtoupperRepl\Thing

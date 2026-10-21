@@ -1,0 +1,5 @@
+ABCHOOK:fopenD
+|
+1EHOOK:strtoupper|
+HOOK:fopen
+3HOOK:fopen

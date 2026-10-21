@@ -1,0 +1,3 @@
+HOOK:fopen HOOK:sleep
+HOOK:fopen
+HOOK:fopen c-own

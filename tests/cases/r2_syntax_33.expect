@@ -1,0 +1,3 @@
+function,x=1,HOOK:strtoupper
+fn,x=1,HOOK:usleep
+fn,x,y=1,2,3

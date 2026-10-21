@@ -1,0 +1,5 @@
+HOOK:strtoupperRepl\Thing
+HOOK:fopen2
+HOOK:sleep HOOK:usleep Repl\Thing
+Repl\Thing|HOOK:fopen
+HOOK:array_map

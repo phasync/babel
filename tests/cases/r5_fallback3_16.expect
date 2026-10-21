@@ -1,0 +1,3 @@
+HOOK:strtoupper local(n) HOOK:strtoupper HOOK:strtoupper
+lf(a) lf(b)
+syntax error, unexpected token ";" @1

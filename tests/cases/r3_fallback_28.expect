@@ -1,0 +1,3 @@
+HOOK:fopen HOOK:strtoupper HOOK:strtoupper,HOOK:fopen
+HOOK:usleep HOOK:sleep HOOK:strtoupper HOOK:strtoupper
+15 HOOK:strtoupper

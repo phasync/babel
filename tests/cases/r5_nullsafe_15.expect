@@ -1,0 +1,12 @@
+string(4) "repl"
+Error: Class name must be a valid object or a string
+string(4) "repl"
+string(8) "replrepl"
+string(4) "repl"
+Error: Class name must be a valid object or a string
+bool(false)
+string(10) "Repl\Thing"
+Error: Class name must be a valid object or a string
+string(10) "Repl\Thing"
+NULL
+bool(true)

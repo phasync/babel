@@ -1,0 +1,4 @@
+one HOOK:fopen+two HOOK:strtoupper+Repl\Thing three v
+four HOOK:fopen
+xHOOK:sleep+inHOOK:usleepy
+{$o->m(fopen('x'))}

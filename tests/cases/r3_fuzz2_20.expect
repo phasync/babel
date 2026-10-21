@@ -1,0 +1,161 @@
+'<Repl\\Thing>'
+'Repl\\Thing'
+true
+array (
+  0 => 'Repl\\Thing',
+  1 => 'Repl\\Thing',
+)
+'inv:x'
+2
+'HOOK:fopen'
+array (
+  0 => 'Repl\\Thing',
+  1 => 'Repl\\Thing',
+)
+'Repl\\Thing'
+'"Repl\\\\Thing"|"Repl\\\\Base"'
+'Repl\\ThingRepl\\Base345'
+array (
+  0 => '?Repl\\Contract',
+  1 => NULL,
+  2 => 'v',
+  3 => '?Repl\\Contract',
+)
+array (
+  0 => '<Repl\\Thing>',
+  1 => 'Repl\\Thing',
+)
+array (
+  0 => 'Repl\\Base|Repl\\Thing|null',
+  1 => NULL,
+  2 => 'v',
+  3 => 'Repl\\Base|Repl\\Thing|null',
+)
+'Repl\\Thing'
+'{"0":"HOOK:fopen","z":"<Repl\\\\Thing>"}|"repl"'
+'Repl\\Base'
+array (
+  0 => 'Orig\\Thing::who',
+  1 => 'repl',
+)
+'HOOK:fopen'
+'"Repl\\\\Thing"|"repl"'
+array (
+  0 => 'Repl\\Thing',
+  1 => 'Repl\\Base',
+)
+array (
+  0 => 2,
+  1 => 
+  array (
+    0 => 1,
+    1 => 2,
+    2 => 3,
+  ),
+  2 => 7,
+  3 => 
+  array (
+    0 => 1,
+    1 => 2,
+  ),
+  4 => 3,
+  5 => 3,
+)
+'Repl\\Thing'
+array (
+  0 => 2,
+  1 => 
+  array (
+    0 => 1,
+    1 => 2,
+    2 => 3,
+  ),
+  2 => 7,
+  3 => 
+  array (
+    0 => 1,
+    1 => 2,
+  ),
+  4 => 3,
+  5 => 3,
+)
+'<Repl\\Thing>'
+'HOOK:fopen'
+'list:PDO,OB'
+1
+array (
+  0 => 'Repl\\Attr',
+  1 => 'HOOK:strtoupper',
+)
+array (
+  0 => true,
+  1 => 'Orig\\Thing::who',
+)
+array (
+  0 => '(Repl\\Contract&Countable)|null',
+  1 => NULL,
+  2 => 'v',
+  3 => '(Repl\\Contract&Countable)|null',
+)
+'NA:file_get_contents:1'
+'inv:x'
+array (
+  0 => 'Orig\\Thing::who',
+  1 => 'Repl\\Thing',
+)
+'inv:x'
+array (
+  0 => 2,
+  1 => 
+  array (
+    0 => 1,
+    1 => 2,
+    2 => 3,
+  ),
+  2 => 7,
+  3 => 
+  array (
+    0 => 1,
+    1 => 2,
+  ),
+  4 => 3,
+  5 => 3,
+)
+'Repl\\Thing'
+array (
+  0 => 'Repl\\Attr',
+  1 => 'HOOK:strtoupper',
+)
+'Repl\\Base'
+'HOOK:file_get_contents'
+'Repl\\Thing'
+'NA\\Sub:strtoupper:1'
+array (
+  0 => '?Repl\\Base',
+  1 => NULL,
+  2 => 'v',
+  3 => '?Repl\\Base',
+)
+array (
+  0 => true,
+  'z' => true,
+)
+array (
+  0 => 'Repl\\Attr',
+  1 => 'HOOK:strtoupper',
+)
+array (
+  0 => 'Repl\\Thing',
+  1 => 'who',
+)
+'"NA\\\\Sub:strtoupper:1"|"repl"'
+'NA\\Sub\\H3'
+'Repl\\Base'
+array (
+  0 => '(Repl\\Contract&Countable)|null',
+  1 => NULL,
+  2 => 'v',
+  3 => '(Repl\\Contract&Countable)|null',
+)
+'Repl\\Base'
+'HOOK:file_get_contents'

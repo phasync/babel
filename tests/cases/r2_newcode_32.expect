@@ -1,0 +1,4 @@
+HOOK:strtoupperHOOK:fopenHOOK:sleep
+HOOK:strtoupperHOOK:usleep
+HOOK:strtoupper
+HOOK:fopenHOOK:strtoupper r2_newcode_32.php

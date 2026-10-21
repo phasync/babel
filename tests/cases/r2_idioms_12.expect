@@ -1,0 +1,9 @@
+O:12:"Ser\Envelope":3:{s:4:"type";s:10:"Repl\Thing";s:6:"expect";s:10:"Repl\Thing";s:2:"is";b:1;}
+unser Repl\Thing expect=Repl\Thing is=true now=Repl\Thing
+bool(true)
+unser Repl\Thing expect=Repl\Thing is=true now=Repl\Thing
+Repl\Thing
+Repl\Base Repl\Base
+Repl\Base
+Ser\Envelope Repl\Base
+Repl\Base

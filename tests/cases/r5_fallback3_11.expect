@@ -1,0 +1,2 @@
+HOOK:strtoupper |local(e)
+HOOK:fopen lf(f)

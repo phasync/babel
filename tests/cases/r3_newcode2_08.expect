@@ -1,0 +1,6 @@
+Repl\Thing Repl\Thing Repl\Thing Repl\Thing repl
+Repl\Thing Repl\Thing HOOK:fopen HOOK:fopen
+repl repl y
+Repl\Thing Repl\Thing y
+HOOK:fopen HOOK:fopen HOOK:strtoupper y
+HOOK:strtoupper Repl\Thing y

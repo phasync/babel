@@ -1,0 +1,10 @@
+Repl\Thing Repl\Thing|Repl\Err
+?Repl\PDO ?Repl\Contract
+Repl\Base Repl\Thing Repl\Thing Repl\Thing
+Other\Thing Other\Base Repl\Thing ?Other\Sub\Thing Other\Thing Other\Thing
+Repl\Thing Repl\Thing Other\Thing Other\Thing Repl\Thing Repl\Base Repl\Contract Repl\Err
+Other\Thing Repl\Thing Repl\Thing Repl\Err
+Repl\PDO ?Repl\PDO Repl\PDO|Repl\Thing PDOException|PDOStatement|null ?Repl\PDO Repl\PDO Repl\PDO
+ok
+rejects real PDO
+yn

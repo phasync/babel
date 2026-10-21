@@ -1,0 +1,2 @@
+HOOK:fopenHOOK:sleepHOOK:fopen
+HOOK:strtoupperHOOK:file_get_contentsHOOK:curl_execHOOK:stream_selectHOOK:fopenHOOK:usleep

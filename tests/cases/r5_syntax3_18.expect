@@ -1,0 +1,7 @@
+1,2,3
+HOOK:fopen
+HOOK:strtoupper
+Repl\Thing
+Repl\Thing
+Repl\Attr [[1,[2]]]
+closure

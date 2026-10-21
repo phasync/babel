@@ -1,0 +1,7 @@
+Io::fopen(HOOK:fopen) Io::strtoupper/HOOK:strtoupper Io->sleep const-sleep
+Io::fopen(HOOK:fopen) Child/Base2/HOOK:fopen
+__call:usleep __callStatic:usleep __call:file_get_contents __call:curl_exec
+const-sleep const-sleep
+no
+3/x/HOOK:sleep
+HOOK:usleep HOOK:usleep 1/z/HOOK:sleep

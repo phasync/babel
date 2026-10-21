@@ -1,0 +1,6 @@
+lint: ok
+idempotent: yes
+H:'x.php'
+second-arg
+H:true
+die2 skipped

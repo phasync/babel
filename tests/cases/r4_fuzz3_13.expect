@@ -1,0 +1,74 @@
+array (
+  0 => 'HOOK:fopen',
+  1 => '',
+)
+HOOK:fopen
+'"<HOOK:fopen>"|["HOOK:strtoupper",""]'
+["repl",""]
+array (
+  0 => '?Repl\\Base',
+  1 => NULL,
+  2 => 'v',
+  3 => '?Repl\\Base',
+)
+array (
+)
+array (
+  0 => '<Repl\\Thing|HOOK:fopen|>',
+  1 => '',
+)
+Repl\Thing
+Repl\Base
+false
+array (
+  0 => NULL,
+  1 => 'N1',
+)
+array (
+  0 => 'Repl\\Thing|string|null',
+  1 => NULL,
+  2 => 'v',
+  3 => 'Repl\\Thing|string|null',
+)
+Repl\Thing
+array (
+  0 => '?Repl\\Thing',
+  1 => NULL,
+  2 => 'v',
+  3 => '?Repl\\Thing',
+)
+'HOOK:file_get_contents'
+inv:x
+'HOOK:file_get_contents'
+array (
+  'p' => 'repl',
+)
+'Repl\\Base'
+Repl\Thing
+array (
+  0 => NULL,
+  1 => 'N1',
+)
+repl
+Repl\Thing
+'true'
+'list:PDO,OB'
+array (
+  0 => 'ab',
+)
+inline29
+array (
+  0 => 'repl',
+  1 => 'L1',
+)
+array (
+  0 => '?Repl\\PDO',
+  1 => NULL,
+  2 => 'v',
+  3 => '?Repl\\PDO',
+)
+'Hook\\strtoupper'
+array (
+  0 => 'Repl\\Attr',
+  1 => 'HOOK:strtoupper',
+)

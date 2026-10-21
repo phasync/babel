@@ -1,0 +1,14 @@
+ok instanceof Repl\Thing
+ok instanceof Repl\Thing
+testMake thing passed
+ok instanceof Repl\PDO
+FAIL instanceof Repl\Thing
+testMake pdo passed
+ok instanceof Repl\Err
+FAIL instanceof Repl\Thing
+testMake err passed
+testThrows 0 expected Repl\Err
+testThrowsOther 0 unexpected Exception
+ok instanceof Repl\PDO
+ok instanceof PDO
+testMock 0 passed

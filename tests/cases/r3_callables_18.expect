@@ -1,0 +1,6 @@
+HOOK:strtoupper|HOOK:fopen|HOOK:sleep
+HOOK:strtoupper HOOK:fopen
+[HOOK:sleep]
+HOOK:strtoupper
+fopen
+<HOOK:strtoupper>

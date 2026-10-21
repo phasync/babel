@@ -1,0 +1,7 @@
+
+Deprecated: Using ${expr} (variable variables) in strings is deprecated, use {${expr}} instead in {DIR}/r4_walker_17.php on line 5
+
+Deprecated: Using ${expr} (variable variables) in strings is deprecated, use {${expr}} instead in {DIR}/r4_walker_17.php on line 7
+1 VV|VV|av|pv|m(v)|m(HOOK:strtoupper)
+2 VV|VV|av|pv|m(HOOK:strtoupper)|HOOK:strtoupper
+3 HOOK:strtoupperHOOK:strtoupper

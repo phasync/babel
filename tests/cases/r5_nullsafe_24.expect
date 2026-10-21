@@ -1,0 +1,8 @@
+W: Only variables should be passed by reference
+int(2)
+W: Only variables should be passed by reference
+bool(true)
+W: Only variables should be passed by reference
+int(4)
+W: Only variables should be passed by reference
+int(2)

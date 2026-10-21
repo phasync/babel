@@ -1,0 +1,18 @@
+string(3) "who"
+string(3) "fnK"
+string(1) "K"
+bool(true)
+string(1) "P"
+array(1) {
+  ["K"]=>
+  int(1)
+}
+int(2)
+int(3)
+string(7) "matched"
+case ok
+string(5) "KKKKK"
+int(0)
+int(-1)
+bool(false)
+string(1) "K"

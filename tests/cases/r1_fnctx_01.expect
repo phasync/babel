@@ -1,0 +1,10 @@
+m-fopen m-fopen |
+prop const-sleep sprop s-stream_select m-array_map
+impl-fopen:m-fopen impl-sleep fsc enum-curl
+CONST DEF trait-usleep
+label ok
+A/e C/B
+3
+fopen("x") sleep(1) // fopen()
+fopen('x') sleep(1)
+plain fopen('x') prop m-fopen

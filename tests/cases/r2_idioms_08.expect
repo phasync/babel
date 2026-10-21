@@ -1,0 +1,11 @@
+# => Repl\Thing
+Repl\Base => Gen\User
+# => Repl\Err
+Repl\Contract => bool
+sent => Repl\Thing
+Repl\Thing
+Gen\User Gen\User Gen\User Repl\Base
+bool(true)
+bool(true)
+bool(true)
+Repl\Base

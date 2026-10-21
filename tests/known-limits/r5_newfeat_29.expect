@@ -1,0 +1,5 @@
+
+Deprecated: class_exists(): Passing null to parameter #1 ($class) of type string is deprecated in {DIR}/r5_newfeat_29.php on line 5
+bool(false)
+r5_newfeat_29.php:7
+r5_newfeat_29.php:13

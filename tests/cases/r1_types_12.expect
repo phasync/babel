@@ -1,0 +1,3 @@
+a=Repl\Thing b=?Repl\Base legacy=Repl\Thing Repl\Thing|string Repl\Tr Repl\Tr
+rejects
+t=?Repl\Thing u=Repl\Base|Repl\Contract|null ?Repl\Thing

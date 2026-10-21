@@ -1,0 +1,3 @@
+extends:HOOK:fopen
+implements:HOOK:sleep,HOOK:strtoupper
+insteadof:HOOK:fopen extends:HOOK:usleep

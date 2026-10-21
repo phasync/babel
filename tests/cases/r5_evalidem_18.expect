@@ -1,0 +1,7 @@
+AHOOK:fopenBHOOK:strtoupper|
+x
+4HOOK:fopen|
+HOOK:strtoupper2|
+HOOK:fopenRepl\Attr|
+HOOK:strtoupper|
+3HOOK:strtoupper

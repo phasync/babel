@@ -1,0 +1,3 @@
+Repl\Base|Repl\Contract|HOOK:fopen/HOOK:strtoupper/Repl\Thing|HOOK:fopen,repl,HOOK:array_map
+Repl\Attr Repl\Thing::who
+Repl\Thing Repl\Thing Repl\Thing

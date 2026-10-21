@@ -1,0 +1,10 @@
+App\Command\AsCommand {"name":"app:sync","description":"repl","aliases":["Repl\\Base"]}
+Repl\Attr Repl\Thing Repl\Thing
+thing Repl\Thing Repl\Attr {"v":"Repl\\Thing"}
+base Repl\Base|Repl\Contract|null Repl\Attr [{"Repl\\Base":"Repl\\Thing"}]
+base Repl\Base|Repl\Contract|null SensitiveParameter []
+Repl\Attr Repl\Attr Repl\Thing
+Fast Repl\Attr ["Repl\\Thing"]
+Slow Repl\Attr {"v":"Repl\\Base"}
+Repl\Thing Repl\Thing Repl\Base
+Repl\Base Repl\Base

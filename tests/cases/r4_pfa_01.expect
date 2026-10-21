@@ -1,0 +1,7 @@
+$a = \Hook\fopen(?, "r");
+$a = \phasync\Babel\Shim\is_a(\phasync\Babel\Runtime::cls($x), ?);
+$a = \phasync\Babel\Shim\is_a(?, 'Repl\\Thing');
+$a = array_map(?, $list);
+$a = \phasync\Babel\Runtime::fn($f)(?, 1);
+$a = \phasync\Babel\Shim\is_a(...);
+$a = \phasync\Babel\Shim\class_exists(...);

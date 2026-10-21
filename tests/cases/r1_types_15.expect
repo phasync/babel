@@ -1,0 +1,5 @@
+a: Repl\Thing 
+b: Repl\Thing 
+c: Repl\Thing Repl\Thing Repl\PDO Repl\PDO Repl\PDO Foo\PDO Foo\PDO 
+d: Orig\Sub\Thing Orig\Sub\Thing Foo\Thing Foo\Thing Foo\Thing Foo\Base|Repl\Base
+e: Repl\Thing|Repl\Base|(Repl\Err&Repl\Contract)|Repl\Attr 

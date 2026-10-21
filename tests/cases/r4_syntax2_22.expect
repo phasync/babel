@@ -1,0 +1,7 @@
+
+Deprecated: The backtick (`) operator is deprecated, use shell_exec() instead in {DIR}/r4_syntax2_22.php on line 16
+a HOOK:strtoupper Repl\Thing "qreplq" b
+1 2 Repl\Thing 3 Repl\Thing HOOK:fopen
+HOOK:fopen|Repl\Thing|repl
+kRepl\Thing=vHOOK:strtoupper
+Repl\Thing R

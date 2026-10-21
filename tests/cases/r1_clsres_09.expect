@@ -1,0 +1,11 @@
+ a:Repl\Thing b:?Repl\Base c:Repl\Thing|Repl\PDO|null d:Repl\Err|int
+?Repl\Thing Repl\Base|Repl\Err|null (Repl\Thing&Repl\Contract)|null
+Repl\Thing|static Repl\Thing ?Repl\Base
+Repl\Thing|Repl\Base|null ?Repl\Thing Repl\Thing
+Repl\Base types\I,Countable,Repl\Contract Repl\Tr Repl\Contract,UnitEnum,BackedEnum
+Repl\Attr Repl\Thing
+Repl\Base Repl\Contract Repl\Thing
+Closure
+Repl\Thing|?Repl\Thing
+TypeError
+Repl\Base

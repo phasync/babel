@@ -1,0 +1,36 @@
+string(10) "Repl\Thing"
+string(10) "Repl\Thing"
+string(10) "Repl\Thing"
+string(10) "Repl\Thing"
+string(10) "Repl\Thing"
+string(10) "Repl\Thing"
+NULL
+string(6) "m-repl"
+string(6) "m-null"
+array(2) {
+  [0]=>
+  string(10) "Repl\Thing"
+  [1]=>
+  NULL
+}
+string(10) "Repl\Thing"
+string(10) "Repl\Thing"
+string(4) "repl"
+string(4) "repl"
+string(10) "Repl\Thing"
+string(4) "repl"
+tr(5) int(5)
+tr(8) int(8)
+tr(9) int(9)
+string(10) "Repl\Thing"
+int(0)
+bool(true)
+bool(true)
+int(-9)
+int(5)
+int(5)
+Repl\Thingint(1)
+string(11) "ARepl\Thing"
+string(10) "Repl\Thing"
+string(1) "H"
+Exception: Repl\Thing

@@ -1,0 +1,8 @@
+depth 1 HOOK:strtoupper
+bool(true)
+bool(true)
+depth 2 HOOK:strtoupper
+bool(true)
+bool(true)
+end 2
+end 2

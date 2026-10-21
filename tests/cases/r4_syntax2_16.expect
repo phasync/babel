@@ -1,0 +1,5 @@
+App\enum Repl\Thing Repl\Thing
+pe pr match:HOOK:strtoupper HOOK:fopen exit
+App\enum,Repl\Thing
+yes Repl\Thing repl repl
+3 App\enum

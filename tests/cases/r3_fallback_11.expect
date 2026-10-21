@@ -1,0 +1,3 @@
+HOOK:fopen Hook\fopen
+HOOK:strtoupper HOOK:fopen HOOK:usleep
+local-select ["local"]

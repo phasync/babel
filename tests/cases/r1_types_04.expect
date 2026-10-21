@@ -1,0 +1,7 @@
+Repl\Thing
+hook a rejects
+hook b rejects
+?Repl\Thing ?Repl\Thing
+Repl\Thing|Repl\Base|null Repl\Thing|Repl\Base|null
+Repl\Thing|Repl\Base|null Repl\Base|Repl\Thing|null
+?Repl\Thing

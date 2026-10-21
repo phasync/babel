@@ -1,0 +1,9 @@
+Repl\Thing,HOOK:strtoupper,repl
+t0-4HOOK:strtoupperrepl
+Repl\Thing
+HOOK:strtoupper
+repl+ repl+ repl+
+ref
+Repl\Thing inst no-g
+ref set empty
+ref

@@ -1,0 +1,9 @@
+Repl\Attr {"v":"Repl\\Thing"}
+App\Command\Route {"0":"/things/{id}","requirements":{"id":"\\d+"},"defaults":{"class":"Repl\\Thing","base":"Repl\\Base"},"entity":"Repl\\Thing"}
+App\Command\Route {"path":"/other","nested":[{"v":["Repl\\Thing","Repl\\Err"]}]}
+Repl\Attr ["Repl\\Thing","Repl\\Err"]
+App\Command\Route ["\/m"]
+Repl\Attr ["Repl\\Contract"]
+Repl\Thing Repl\Attr Repl\Thing
+Repl\Thing
+Repl\Thing

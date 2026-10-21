@@ -1,0 +1,1 @@
+HOOK:fopen Sub:fopen HOOK:fopen

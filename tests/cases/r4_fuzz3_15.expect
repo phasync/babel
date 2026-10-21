@@ -1,0 +1,102 @@
+'list:PDO,OB'
+array (
+  0 => 'Repl\\Thing|string|null',
+  1 => NULL,
+  2 => 'v',
+  3 => 'Repl\\Thing|string|null',
+)
+'m:a'
+array (
+  0 => 'repl',
+  1 => '',
+)
+'Repl\\Thing'
+array (
+  0 => '<mf1|Repl\\Thing>',
+  1 => 'J',
+)
+'HOOK:strtoupper'
+'HOOK:file_get_contents'
+inline9
+'Repl\\Base'
+'Repl\\Thing'
+array (
+  0 => 'qinv',
+  1 => '',
+)
+Repl\Thing
+array (
+  0 => '<Repl\\Thing2345|Repl\\Thing>',
+  1 => '',
+)
+array (
+  0 => 'Repl\\Attr',
+  1 => 'HOOK:strtoupper',
+)
+"Repl\\Thing"
+Repl\Thing
+'HOOK:strtoupper'
+false
+'list:fn,static'
+true
+array (
+  0 => 'Repl\\Thing',
+  1 => 'L0,V',
+)
+array (
+  0 => '?Repl\\PDO',
+  1 => NULL,
+  2 => 'v',
+  3 => '?Repl\\PDO',
+)
+'kis[null,"Orig\\\\Thing"]'
+Repl\Thing
+array (
+  0 => 'Repl\\Attr',
+  1 => 'HOOK:strtoupper',
+)
+HOOK:fopen
+array (
+  0 => '<cl> Orig\\Thing',
+  1 => 'A',
+)
+["Repl\\Thing","A"]
+array (
+  0 => 'repl',
+  1 => '',
+)
+array (
+  0 => '<repl>',
+)
+'m:d'
+'Orig\\Thing'
+'Repl\\Thing'
+array (
+  0 => '<strtoupper|mf1|HOOK:fopen{$c::who()}345>',
+  1 => '',
+)
+inline39
+array (
+  0 => NULL,
+  1 => '',
+)
+array (
+  0 => '<Repl\\Thing>',
+  1 => '',
+)
+array (
+  0 => 'Repl\\Base|Repl\\Thing|null',
+  1 => NULL,
+  2 => 'v',
+  3 => 'Repl\\Base|Repl\\Thing|null',
+)
+'Orig\\Thing'
+'Repl\\Thing'
+array (
+  0 => NULL,
+  1 => '',
+)
+'HOOK:array_map'
+true
+'inv:ab'
+'Orig\\Thing'

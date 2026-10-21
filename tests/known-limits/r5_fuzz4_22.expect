@@ -1,0 +1,12 @@
+TypeError: Only arrays and Traversables can be unpacked, int given
+TypeError: Only arrays and Traversables can be unpacked, null given
+
+Warning: Undefined variable $undef in {DIR}/r5_fuzz4_22.php on line 7
+TypeError: Only arrays and Traversables can be unpacked, null given
+
+Warning: Undefined variable $undef in {DIR}/r5_fuzz4_22.php on line 8
+TypeError: Only arrays and Traversables can be unpacked, null given
+TypeError: Only arrays and Traversables can be unpacked, string given
+
+Warning: Undefined variable $undef in {DIR}/r5_fuzz4_22.php on line 10
+TypeError: Only arrays and Traversables can be unpacked, null given

@@ -1,0 +1,3 @@
+local-fopen
+HOOK:strtoupper HOOK:fopen
+HOOK:strtoupper

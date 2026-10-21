@@ -1,0 +1,10 @@
+HOOK:fopen|app\sleep|HOOK:strtoupper|Repl\Thing|NULL|Repl\Thing|1|HOOK:array_map
+Repl\Thing Repl\Thing
+Repl\Thing|Repl\Thing|HOOK:fopen
+HOOK:fopen|app\sleep|HOOK:strtoupper|Repl\Thing|NULL|Repl\Thing|1|HOOK:array_map
+Repl\Thing Repl\Thing
+Repl\Thing|Repl\Thing|HOOK:fopen
+HOOK:fopen|app\sleep|HOOK:strtoupper|Repl\Thing|NULL|Repl\Thing|1|HOOK:array_map
+Repl\Thing Repl\Thing
+Repl\Thing|Repl\Thing|HOOK:fopen
+same

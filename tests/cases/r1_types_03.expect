@@ -1,0 +1,19 @@
+c1: Repl\Thing <- Repl\Thing,
+c2: ?Repl\Base <- Repl\Thing,
+c3: Repl\Thing <- Repl\Thing,
+c4: Repl\Base|Repl\Thing|null <- ?Repl\Base,Repl\Thing|Repl\Contract,
+c5: Repl\Thing|Repl\Base <- Repl\Thing,
+c6: (Repl\Thing&Repl\Contract)|null <- 
+c7: - <- Repl\Thing,
+c8: Repl\Thing <- Repl\Thing,
+Repl\Thing Repl\Thing Repl\Base
+c1 rejects
+c3 rejects
+c5 rejects
+c8 rejects
+c7 rejects
+c7 inner rejects
+bad return rejected
+bad2 return rejected
+Repl\Thing
+Repl\Thing

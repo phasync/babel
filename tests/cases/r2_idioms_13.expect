@@ -1,0 +1,10 @@
+Repl\Thing Repl\Base Repl\Thing Repl\Thing Repl\Thing Repl\Base
+Cannot modify private(set) property Avis\Model::$thing from global scope
+thing: Repl\Thing
+base: ?Repl\Base
+either: Repl\Base|Repl\Thing|null
+ro: Repl\Thing
+abs: Repl\Contract|Repl\Thing
+fin: Repl\Thing
+promoted: Repl\Thing|Repl\Base
+Repl\Thing

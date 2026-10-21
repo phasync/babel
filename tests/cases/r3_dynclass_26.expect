@@ -1,0 +1,8 @@
+1,2,3
+b
+5
+1,2,3
+{closure}(): Argument #1 ($s) must be of type string, int given
+1,2
+set
+Repl\Thing

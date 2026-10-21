@@ -1,0 +1,9 @@
+hidden:Repl\Base
+static-hidden/Lib\Secret/Repl\Base
+hidden:Repl\Base
+Repl\Thing
+Repl\Thing
+repl
+string
+HOOK:strtoupper HOOK:strtoupper Repl\Thing
+Repl\Thing

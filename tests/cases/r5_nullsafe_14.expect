@@ -1,0 +1,24 @@
+bool(true)
+bool(true)
+bool(true)
+string(10) "Repl\Thing"
+string(10) "Repl\Thing"
+string(10) "Repl\Thing"
+string(10) "Repl\Thing"
+W: Undefined variable $n
+W: Undefined property: H::$
+Error: Class name must be a valid object or a string
+string(10) "Repl\Thing"
+string(10) "Repl\Thing"
+NULL
+NULL
+tr(3) int(3)
+string(2) "dd"
+int(1)
+got S
+string(10) "Repl\Thing"
+string(1) "T"
+int(1)
+got S
+NULL
+NULL

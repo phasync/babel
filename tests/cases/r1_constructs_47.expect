@@ -1,0 +1,10 @@
+bool(true)
+bool(true)
+run 1 HOOK:fopen
+bool(true)
+bool(true)
+run 2 HOOK:fopen
+bool(true)
+bool(true)
+back 3
+back 3

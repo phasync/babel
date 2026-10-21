@@ -1,0 +1,20 @@
+W[2]: include(r1_missing_a.php): Failed to open stream: No such file or directory @4
+W[2]: include(): Failed opening 'r1_missing_a.php' for inclusion (include_path='.:/usr/share/php') @4
+bool(false)
+W[2]: include_once(r1_missing_b.php): Failed to open stream: No such file or directory @5
+W[2]: include_once(): Failed opening 'r1_missing_b.php' for inclusion (include_path='.:/usr/share/php') @5
+bool(false)
+W[2]: include({DIR}/fixtures/nope.php): Failed to open stream: No such file or directory @6
+W[2]: include(): Failed opening '{DIR}/fixtures/nope.php' for inclusion (include_path='.:/usr/share/php') @6
+bool(false)
+ValueError: Path must not be empty
+W[2]: include(): Failed opening 'a' for inclusion (include_path='.:/usr/share/php') @8
+bool(false)
+W[2]: require(r1_missing_c.php): Failed to open stream: No such file or directory @9
+Error: Failed opening required 'r1_missing_c.php' (include_path='.:/usr/share/php')
+W[2]: require_once({DIR}/fixtures): Failed to open stream: No such file or directory @10
+Error: Failed opening required '{DIR}/fixtures/' (include_path='.:/usr/share/php')
+W[2]: include({DIR}/fixtures): Failed to open stream: No such file or directory @11
+W[2]: include(): Failed opening '{DIR}/fixtures' for inclusion (include_path='.:/usr/share/php') @11
+bool(false)
+done

@@ -1,0 +1,5 @@
+string(4) "repl"
+string(4) "repl"
+string(10) "Repl\Thing"
+string(4) "repl"
+Error: Class name must be a valid object or a string

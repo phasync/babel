@@ -1,0 +1,10 @@
+
+Deprecated: The backtick (`) operator is deprecated, use shell_exec() instead in {DIR}/r4_syntax2_05.php on line 20
+A Repl\Thing B
+  HOOK:strtoupper C trim
+D repl E q
+x HOOK:strtoupper y now {$cls::$p}
+a b repl Repl\Thing c
+repl
+|trim
+26

@@ -1,0 +1,8 @@
+HOOK:strtoupper HOOK:strtoupper HOOK:strtoupper
+HOOK:fopen HOOK:fopen
+Repl\Thing Repl\Thing repl
+HOOK:strtoupper
+Repl\Thing
+HOOK:fopen Repl\Thing
+HOOK:fopen Repl\Thing
+Repl\Thing c

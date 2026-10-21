@@ -1,0 +1,3 @@
+repl Repl\Thing name:HOOK:strtoupper Repl\Thing
+Repl\Attr Repl\Thing
+Repl\Thing

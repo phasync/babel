@@ -1,0 +1,5 @@
+html HOOK:fopen more 1HOOK:strtoupper
+5HOOK:fopen
+﻿bool(true)
+HOOK:fopen4
+

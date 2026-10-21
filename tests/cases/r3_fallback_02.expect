@@ -1,0 +1,1 @@
+HOOK:fopen local-usleep HOOK:curl_exec

@@ -1,0 +1,12 @@
+ParseError: syntax error, unexpected token ";" @4
+localHOOK:fopenlocallocal
+W: data:// wrapper is disabled in the server configuration by allow_url_include=0 @5
+W: include(data://text/plain;base64,PD9waHAgcmV0dXJuIGZvcGVuKDEpOw==): Failed to open stream: no suitable wrapper could be found @5
+W: Failed opening 'data://text/plain;base64,PD9waHAgcmV0dXJuIGZvcGVuKDEpOw==' for inclusion (include_path='.:/usr/share/php') @5
+bool(false)
+int(1)
+W: http:// wrapper is disabled in the server configuration by allow_url_include=0 @7
+W: include(http://127.0.0.1:1/x.php): Failed to open stream: no suitable wrapper could be found @7
+W: Failed opening 'http://127.0.0.1:1/x.php' for inclusion (include_path='.:/usr/share/php') @7
+bool(false)
+end

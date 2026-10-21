@@ -1,0 +1,4 @@
+HOOK:usleep
+HOOK:fopen
+HOOK:fopen
+HOOK:strtoupper

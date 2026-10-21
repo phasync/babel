@@ -1,0 +1,15 @@
+
+Deprecated: Using ${var} in strings is deprecated, use {$var} instead in {DIR}/r5_newfeat_19.php on line 12
+HOOK:strtoupper
+xRepl\Thingyupperrepl
+HOOK:strtoupper Repl\Thing
+Repl\Thing
+HOOK:strtoupperHOOK:strtoupperHOOK:strtoupper
+Repl\Thingrepl
+string(10) "strtoupper"
+bool(true)
+array(1) {
+  [0]=>
+  string(11) "kRepl\Thing"
+}
+ORepl\Thing

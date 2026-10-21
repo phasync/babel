@@ -1,0 +1,29 @@
+string(10) "Repl\Thing"
+NULL
+string(10) "Repl\Thing"
+NULL
+string(10) "Repl\Thing"
+NULL
+string(10) "Repl\Thing"
+NULL
+string(10) "Repl\Thing"
+string(10) "Repl\Thing"
+string(10) "Repl\Thing"
+string(10) "Repl\Thing"
+string(10) "Repl\Thing"
+NULL
+string(10) "Repl\Thing"
+Error: Value of type null is not callable
+string(4) "repl"
+Error: Class name must be a valid object or a string
+TypeError: Cannot use "::class" on string
+TypeError: Cannot use "::class" on null
+string(10) "Repl\Thing"
+NULL
+string(10) "Repl\Thing"
+string(10) "Repl\Thing"
+Error: Class name must be a valid object or a string
+string(10) "Repl\Thing"
+tr(b) string(10) "Repl\Thing"
+NULL
+string(4) "repl"

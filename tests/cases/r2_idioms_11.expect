@@ -1,0 +1,17 @@
+model:Repl\Thing
+model:Repl\Base
+contract
+err-or-pdo
+err-or-pdo
+base-name
+exc-name
+exc-name
+int
+Orig\Thing
+bool(true)
+bool(false)
+bool(true)
+bool(true)
+bool(true)
+bool(true)
+bool(true)

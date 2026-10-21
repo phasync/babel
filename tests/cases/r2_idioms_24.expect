@@ -1,0 +1,7 @@
+Repl\Thing Repl\Base
+Repl\Base clone
+inner: Repl\Thing|Repl\Base
+base: ?Repl\Base
+dnf: (Repl\Contract&Repl\Base)|Repl\Thing|null
+Repl\Thing|Repl\Base
+HOOK:strtoupper repl\thing

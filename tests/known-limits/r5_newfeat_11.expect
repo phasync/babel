@@ -1,0 +1,5 @@
+class_exists(): Argument #1 ($class) must be of type string, int given
+class_exists(): Argument #1 ($class) must be of type string, int given
+class_exists(): Argument #1 ($class) must be of type string, int given
+is_a(): Argument #3 ($allow_string) must be of type bool, int given
+bool(true)

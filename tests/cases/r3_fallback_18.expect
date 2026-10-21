@@ -1,0 +1,2 @@
+HOOK:strtoupper HOOK:fopen HOOK:usleep HOOK:sleep
+12

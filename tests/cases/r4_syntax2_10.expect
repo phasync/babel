@@ -1,0 +1,4 @@
+Repl\Tr new Other m-fopen m-fopen
+class=1,fopen=2,PDO=3,new=4,fn=5,array=HOOK:fopen,function=HOOK:strtoupper,list=repl
+3 gt
+fopen PDO

@@ -1,0 +1,101 @@
+array (
+  0 => 'ab',
+)
+'ab'
+'Repl\\Thing'
+'HOOK:fopen'
+array (
+  0 => true,
+  'z' => true,
+)
+array (
+  0 => 'Repl\\Thing|string|null',
+  1 => NULL,
+  2 => 'v',
+  3 => 'Repl\\Thing|string|null',
+)
+'HOOK:fopen'
+'HOOK:file_get_contents'
+array (
+  0 => 2,
+  1 => 
+  array (
+    0 => 1,
+    1 => 2,
+    2 => 3,
+  ),
+  2 => 7,
+  3 => 
+  array (
+    0 => 1,
+    1 => 2,
+  ),
+  4 => 3,
+  5 => 3,
+)
+array (
+  0 => 'Repl\\Base',
+  'z' => 'HOOK:file_get_contents',
+)
+'Repl\\Thing'
+false
+array (
+  0 => true,
+  1 => 'Repl\\Base',
+)
+HOOK:fopen''
+'Repl\\Thing'
+'<Repl\\Thing>'
+'HOOK:fopen'
+'Repl\\Thing'
+'list:PDO,OB'
+array (
+  0 => true,
+  1 => 'Repl\\Thing',
+)
+'repl'
+array (
+  0 => 'Repl\\Base',
+  'z' => true,
+)
+HOOK:strtoupper'HOOK:fopen'
+'repl'
+array (
+  0 => 'Repl\\Base',
+  'z' => 
+  array (
+    0 => true,
+    1 => true,
+  ),
+)
+'Repl\\Thing'
+'NA:fopen:2'
+array (
+  0 => 'ab',
+)
+'HOOK:file_get_contents'
+'Repl\\Base'
+'HOOK:fopen'
+'Repl\\ThingRepl\\Base345'
+'"HOOK:file_get_contents"|["<Repl\\\\Thing>","<Repl\\\\Thing>"]'
+array (
+  0 => 'Repl\\Attr',
+  1 => 'HOOK:strtoupper',
+)
+array (
+  0 => 
+  array (
+    0 => 'Repl\\Attr',
+    1 => 'HOOK:strtoupper',
+  ),
+  'z' => 
+  array (
+    0 => 'Repl\\Thing',
+    'z' => 'NA:file_get_contents:1',
+  ),
+)
+array (
+  0 => 'repl',
+  1 => 'Repl\\Thing',
+)
+'NA:strtoupper:1'

@@ -1,0 +1,4 @@
+HOOK:strtoupper
+Repl\Thing
+HOOK:fopen HOOK:sleep HOOK:usleepRepl\Thing HOOK:file_get_contents
+HOOK:curl_exec

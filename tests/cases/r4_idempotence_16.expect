@@ -1,0 +1,12 @@
+fn chain: rejected
+fn chain case: rejected
+fn chain bs: rejected
+fn self: rejected
+fn self case: rejected
+fn cycle: rejected
+cls chain: rejected
+cls self: rejected
+cls cycle: rejected
+fn to class name: accepted
+class to fn name: accepted
+ok: accepted

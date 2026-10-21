@@ -1,0 +1,8 @@
+Repl\PDO Pdo\Sqlite
+truetruetruefalsetruefalsefalse
+truefalsetruetruetrue
+Repl\PDO Repl\PDO Repl\PDO Repl\PDO
+Repl\PDORepl\PDOtruefalsefalse
+Repl\PDO
+TypeError: pdo\test\takes(): Argument #1 ($p) must be of type Repl\PDO, Pdo\Sqlite given
+yn

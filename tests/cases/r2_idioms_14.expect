@@ -1,0 +1,6 @@
+HOOK:strtoupper Repl\Thing
+HOOK:strtoupper Repl\Thing|HOOK:strtoupper
+Repl\Thing Repl\Thing
+HOOK:array_map Repl\ThingHOOK:strtoupper
+?Repl\Thing Repl\Attr
+Repl\Thing HOOK:strtoupper

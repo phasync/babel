@@ -1,0 +1,4 @@
+static-eval(x)
+static-include(y)
+static-eval(cb)
+HOOK:fopen

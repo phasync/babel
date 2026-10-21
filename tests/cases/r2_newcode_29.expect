@@ -1,0 +1,2 @@
+get(HOOK:strtoupper) get(HOOK:fopen) Repl\Base
+(Repl\Base&Repl\Contract)|null Repl\Thing|Repl\PDO (Repl\Base&Repl\Contract)|null

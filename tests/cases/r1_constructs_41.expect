@@ -1,0 +1,16 @@
+ParseError: syntax error, unexpected end of file, expecting variable or "${" or "{$" @1
+ParseError: Unterminated comment starting line 1 @1
+ParseError: syntax error, unexpected end of file, expecting variable or heredoc end or "${" or "{$" @3
+inline 1 tailNULL
+5afterNULL
+ParseError: syntax error, unexpected token "<", expecting end of file @1
+NULL
+ABNULL
+1NULL
+NULL
+string(12) "HOOK:fopen\1"
+string(11) "4HOOK:sleep"
+string(10) "Repl\Thing"
+string(4) "gone"
+int(7)
+Exception: from eval 1 @1

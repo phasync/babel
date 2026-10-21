@@ -1,0 +1,2 @@
+HOOK:fopenHOOK:sleepO-usleepHOOK:strtoupperO-fgcO-curlHOOK:sleepO-fopen
+HOOK:fopenHOOK:usleepHOOK:strtoupperHOOK:file_get_contents
