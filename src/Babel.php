@@ -69,6 +69,8 @@ final class Babel
     public readonly array $fn;
     /** @internal lowercase fully qualified class => replacement */
     public readonly array $cls;
+    /** @internal lowercase fully qualified constant => replacement function to call for it */
+    public readonly array $const;
     /** Fully qualified, no leading backslash; null: include/require are left alone. */
     public readonly ?string $includeHandler;
     /** Identifies the map; changes when the maps or the translator change. */
@@ -79,6 +81,17 @@ final class Babel
     /**
      * @param array<string,string> $functions      function name => replacement function name
      * @param array<string,string> $classes        class name => replacement class name
+     * @param array<string,string> $constants      global constant name => replacement function name: every
+     *                                             run time read of the constant becomes a call of that
+     *                                             function. An unqualified name inside a namespace resolves
+     *                                             like PHP itself (the namespace's own constant when this
+     *                                             unit declares or imports one of that name, else global).
+     *                                             Never applied where PHP does not allow a call (constant
+     *                                             expressions: const and class const values, enum case
+     *                                             values, parameter and property defaults, attribute
+     *                                             arguments; a local static variable's initializer is not
+     *                                             in this list, since PHP 8.3 accepts arbitrary expressions
+     *                                             there, same as for a mapped function or class)
      * @param bool                 $runtime        wrap what is only known at run time (eval, class
      *                                             names and callables in variables) in Runtime calls
      * @param bool                 $nsFallback     an unqualified call to a mapped global function inside
@@ -109,13 +122,14 @@ final class Babel
         public readonly bool $nsFallback = true,
         ?string $includeHandler = null,
         public readonly bool $fileConstants = false,
+        array $constants = [],
     ) {
         if (null !== $includeHandler && !\preg_match('/^\\\\?[A-Za-z_\x80-\xff][\w\x80-\xff]*(\\\\[A-Za-z_\x80-\xff][\w\x80-\xff]*)*$/D', $includeHandler)) {
             throw new \InvalidArgumentException('phasync/babel: not a valid name: ' . \var_export($includeHandler, true));
         }
         $this->includeHandler = null === $includeHandler ? null : \ltrim($includeHandler, '\\');
-        $fn = $cls = [];
-        foreach (['fn' => $functions, 'cls' => $classes] as $kind => $map) {
+        $fn = $cls = $const = [];
+        foreach (['fn' => $functions, 'cls' => $classes, 'const' => $constants] as $kind => $map) {
             foreach ($map as $from => $to) {
                 foreach ([$from, $to] as $name) {
                     if (!\is_string($name) || !\preg_match('/^\\\\?[A-Za-z_\x80-\xff][\w\x80-\xff]*(\\\\[A-Za-z_\x80-\xff][\w\x80-\xff]*)*$/D', $name)) {
@@ -123,7 +137,7 @@ final class Babel
                     }
                 }
                 // a reserved word cannot name a class or a replacement function (a namespaced one can: A\list);
-                // as a function key it never matches (get_defined_functions() lists exit and die)
+                // as a function or constant key it never matches (get_defined_functions() lists exit and die)
                 foreach ($kind === 'cls' ? [$from, $to] : [$to] as $name) {
                     $last = \strtolower(\ltrim($name, '\\'));
                     if (!\str_contains($last, '\\') && ($kind === 'cls' ? isset(self::RESERVED[$last]) : \token_get_all("<?php $last")[1][0] !== \T_STRING)) {
@@ -144,15 +158,25 @@ final class Babel
                 }
             }
         }
+        foreach ($const as $from => $to) {
+            $k = \strtolower($to);
+            if (isset($fn[$k])) {
+                throw new \InvalidArgumentException("phasync/babel: replacement '$to' of '$from' is itself mapped");
+            }
+            if ($k === 'eval' || self::argSpecs($k)) {
+                throw new \InvalidArgumentException("phasync/babel: replacement '$to' of '$from' takes class names or callables itself");
+            }
+        }
         $this->fn = $fn;
         $this->cls = $cls;
-        $this->fingerprint = \md5(\serialize([$fn, $cls, $runtime, $nsFallback, $this->includeHandler, $fileConstants, 8]));
+        $this->const = $const;
+        $this->fingerprint = \md5(\serialize([$fn, $cls, $runtime, $nsFallback, $this->includeHandler, $fileConstants, $const, 9]));
         $this->marker = '/*phasync-babel:' . \substr($this->fingerprint, 0, 12) . '*/';
     }
 
     public function isIdentity(): bool
     {
-        return $this->fn === [] && $this->cls === [] && null === $this->includeHandler && !$this->fileConstants;
+        return $this->fn === [] && $this->cls === [] && $this->const === [] && null === $this->includeHandler && !$this->fileConstants;
     }
 
     /**

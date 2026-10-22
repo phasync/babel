@@ -20,4 +20,11 @@ return [
         'Orig\\Tr' => 'Repl\\Tr',
         'PDO' => 'Repl\\PDO',
     ],
+    'constants' => [
+        // PHP_SAPI itself: the real motivating case (can never be locally re-declared).
+        'PHP_SAPI' => 'Hook\\php_sapi',
+        // A fictitious global constant, used to exercise "this unit declares/imports a namespaced
+        // constant of that name" without colliding with any real predefined constant.
+        'TEST_CONST' => 'Hook\\test_const',
+    ],
 ];

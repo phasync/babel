@@ -10,7 +10,7 @@ require __DIR__ . '/hooks.php';
 require __DIR__ . '/IncludeWrapper.php';
 $case = realpath($argv[1]);
 $map = require __DIR__ . '/map.php';
-$babel = new Babel($map['functions'], $map['classes']);
+$babel = new Babel($map['functions'], $map['classes'], constants: $map['constants'] ?? []);
 
 // Invariants checked for every case, before running it.
 $src = file_get_contents($case);

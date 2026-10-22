@@ -10,6 +10,8 @@ namespace Hook {
     function strtoupper(...$a) { return 'HOOK:strtoupper'; }
     function array_map(...$a) { return 'HOOK:array_map'; }
     function fopen_alt(...$a) { return 'HOOK:fopen_alt'; }
+    function php_sapi() { return 'HOOK:php_sapi'; }
+    function test_const() { return 'HOOK:test_const'; }
 }
 namespace Orig {
     class Thing { const X = 'orig'; public static $p = 'orig'; public static function who() { return 'Orig\Thing'; } }

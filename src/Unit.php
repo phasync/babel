@@ -60,6 +60,7 @@ final class Unit
 
     private array $fn;
     private array $cls;
+    private array $const;
     private bool $rt;
     private array $id = [];
     private array $tx = [];
@@ -100,6 +101,7 @@ final class Unit
     ) {
         $this->fn = $babel->fn;
         $this->cls = $babel->cls;
+        $this->const = $babel->const;
         $this->rt = $babel->runtime;
     }
 
@@ -297,6 +299,7 @@ final class Unit
         $n = $this->n;
         $fn = $this->fn;
         $cls = $this->cls;
+        $const = $this->const;
         $rt = $this->rt;
 
         // Where the data after __halt_compiler() starts, in the original source.
@@ -326,7 +329,7 @@ final class Unit
         $kw = [];
         $depth = 0;
         $ns = $nsl = '';
-        $fnImp = $clsImp = $haltAlias = [];
+        $fnImp = $clsImp = $constImp = $haltAlias = [];
         $listMode = $propMode = $retType = $afterParams = $fnPending = $traitUse = false;
         $inProp = $inConst = false;
         $propStart = $constStart = 0;
@@ -335,6 +338,8 @@ final class Unit
         $closure = false; // the function whose header is being read is a closure
         $arrows = [];     // depths at which arrow function bodies started
         $constCand = null;
+        $declaredConst = [];
+        $constSites = [];
         $site = $this->uid . ':';
         // Is the current position inside a constant expression (no run time calls allowed)?
         $constExpr = static function () use (&$stack, &$depth, &$inConst, &$inProp, &$constStart, &$propStart): bool {
@@ -487,7 +492,7 @@ final class Unit
                         $k = $stack[--$depth];
                         if ($k === 'n') {
                             $ns = $nsl = '';
-                            $fnImp = $clsImp = $haltAlias = [];
+                            $fnImp = $clsImp = $constImp = $haltAlias = [];
                         }
                         if ($k === 'c' || $k === 'h' || $k === 'n') {
                             $inProp = false;
@@ -638,7 +643,7 @@ final class Unit
                     if ($id[$j] === '{' || $id[$j] === ';' || $id[$j] === \T_CLOSE_TAG) {
                         $ns = $name;
                         $nsl = \strtolower($name);
-                        $fnImp = $clsImp = $haltAlias = [];
+                        $fnImp = $clsImp = $constImp = $haltAlias = [];
                         if ($id[$j] === '{') {
                             $stack[$depth++] = 'n';
                         }
@@ -649,7 +654,7 @@ final class Unit
                     if (($depth === 0 || $top === 'n') && ($pv[$i] < 0 || $id[$pv[$i]] !== ')')) {
                         $u = $this->parseUse($i);
                         if ($u !== null) {
-                            $this->applyUse($u, $fnImp, $clsImp);
+                            $this->applyUse($u, $fnImp, $clsImp, $constImp);
                             foreach ($u['items'] as $it) {
                                 if ($it['kind'] === 'k' && \ltrim($it['name'], '\\') === '__COMPILER_HALT_OFFSET__') {
                                     $haltAlias[$it['alias'] ?? '__COMPILER_HALT_OFFSET__'] = true;
@@ -762,6 +767,16 @@ final class Unit
                         break;
                     }
                     if ($nxt !== '(') {
+                        if ($const) {
+                            if ($t === \T_STRING && $inConst && $top !== 'c' && $depth === $constStart && ($p === \T_CONST || $p === ',')) {
+                                // the declared name (or value) of a global/namespaced `const` statement,
+                                // never a usage; record it so an unqualified reference elsewhere in this
+                                // namespace is known to resolve locally, not to the global constant
+                                $declaredConst[$nsl][\strtolower($tx[$i])] = true;
+                            } elseif (!$constExpr() && $this->constantFetchPosition($i, $top)) {
+                                $this->constRef($i, $nsl, $constImp, $clsImp, $constSites);
+                            }
+                        }
                         break;
                     }
                     if ($p === \T_FUNCTION || $p === \T_FN || $p === \T_CONST
@@ -775,6 +790,9 @@ final class Unit
         }
 
         $this->finishCalls($sites, $argSites, $declared);
+        if ($const && $constSites) {
+            $this->finishConsts($constSites, $declaredConst);
+        }
     }
 
     /**
@@ -2042,6 +2060,84 @@ final class Unit
         return $key;
     }
 
+    /**
+     * A bare name at $i, never followed by '(' (that would be a call, not a constant fetch): rewritten
+     * to a call of the replacement when it resolves to a mapped global constant. A fully qualified or
+     * imported name resolves immediately; an unqualified name inside a namespace is deferred to
+     * finishConsts(), once every `const` declaration of this unit is known (PHP falls back to the
+     * global constant only when the namespace does not declare, or this unit does not import, one of
+     * its own).
+     */
+    private function constRef(int $i, string $nsl, array $constImp, array $clsImp, array &$constSites): void
+    {
+        $t = $this->id[$i];
+        $text = $this->tx[$i];
+        if ($t === \T_NAME_FULLY_QUALIFIED) {
+            $key = \strtolower(\substr($text, 1));
+        } elseif ($t === \T_NAME_RELATIVE) {
+            $key = ($nsl === '' ? '' : $nsl . '\\') . \strtolower(\substr($text, 10));
+        } elseif ($t === \T_NAME_QUALIFIED) {
+            $q = \strpos($text, '\\');
+            $first = \strtolower(\substr($text, 0, $q));
+            $key = isset($clsImp[$first])
+                ? \strtolower($clsImp[$first] . \substr($text, $q))
+                : ($nsl === '' ? '' : $nsl . '\\') . \strtolower($text);
+        } else {
+            $lt = \strtolower($text);
+            if (isset($constImp[$lt])) {
+                $key = \strtolower($constImp[$lt]);
+            } else {
+                $constSites[] = [$i, $nsl, $lt];
+
+                return;
+            }
+        }
+        if (isset($this->const[$key])) {
+            $this->edit[$i] = '\\' . $this->const[$key] . '()';
+        }
+    }
+
+    /**
+     * Resolves the unqualified, non-imported constant references deferred by constRef(): the
+     * namespaced constant when this unit declares one of that name anywhere (order does not matter;
+     * PHP decides at run time, when the `const` statement that actually ran first did), else the
+     * global one.
+     *
+     * @param list<array{int,string,string}>    $constSites    [token, lowercase namespace, lowercase name]
+     * @param array<string,array<string,true>>  $declaredConst lowercase namespace => lowercase name => true
+     */
+    private function finishConsts(array $constSites, array $declaredConst): void
+    {
+        foreach ($constSites as [$i, $nsl, $lt]) {
+            if (($declaredConst[$nsl][$lt] ?? false) === true) {
+                continue; // this namespace declares its own constant of this name
+            }
+            if (isset($this->const[$lt])) {
+                $this->edit[$i] = '\\' . $this->const[$lt] . '()';
+            }
+        }
+    }
+
+    /**
+     * The bare name at $i (never followed by '(') is a constant fetch: not a goto label or target,
+     * and not a named argument.
+     */
+    private function constantFetchPosition(int $i, string $top): bool
+    {
+        $p = $this->pv[$i] >= 0 ? $this->id[$this->pv[$i]] : null;
+        if ($p === \T_GOTO) {
+            return false;
+        }
+        if ($this->id[$this->nx[$i]] !== ':') {
+            return true;
+        }
+        if (($p === '(' || $p === ',') && $top === 'p') {
+            return false; // named argument label
+        }
+
+        return !($p === null || $p === ';' || $p === '{' || $p === '}' || $p === \T_OPEN_TAG || $p === \T_CLOSE_TAG);
+    }
+
     private function evalLine(int $j, int $k): int
     {
         $id = $this->id;
@@ -2343,7 +2439,7 @@ final class Unit
     }
 
     /** Registers the imports of a parsed `use` statement and redirects mapped function imports. */
-    private function applyUse(array $u, array &$fnImp, array &$clsImp): void
+    private function applyUse(array $u, array &$fnImp, array &$clsImp, array &$constImp): void
     {
         $mapped = [];
         foreach ($u['items'] as $k => $it) {
@@ -2356,6 +2452,8 @@ final class Unit
                 }
             } elseif ($it['kind'] === 'c') {
                 $clsImp[\strtolower($alias)] = $it['name'];
+            } elseif ($it['kind'] === 'k') {
+                $constImp[\strtolower($alias)] = $it['name'];
             }
         }
         if (!$mapped) {

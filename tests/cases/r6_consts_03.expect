@@ -1,0 +1,6 @@
+HOOK:test_const
+app_local-value
+app_local-value
+HOOK:test_const
+HOOK:test_const
+lib-value

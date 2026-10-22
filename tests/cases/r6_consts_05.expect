@@ -1,0 +1,5 @@
+member-prop
+member-const
+HOOK:php_sapi
+cli
+defined

@@ -1,0 +1,11 @@
+HOOK:php_sapi
+HOOK:php_sapi
+sapi:HOOK:php_sapi
+arg:HOOK:php_sapi
+HOOK:php_sapi
+HOOK:php_sapi
+switch-case rewritten
+named:literal-label
+HOOK:php_sapi
+text mentioning PHP_SAPI stays literal
+goto-label reached

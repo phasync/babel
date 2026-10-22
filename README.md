@@ -89,6 +89,29 @@ the replacement afterwards. `self`, `parent`, `static` and the scalar type names
 Literals are mapped at translate time; everything else is wrapped in a cheap `Runtime` call, and only
 where PHP allows a call (never in constant expressions).
 
+**Constants.** A global constant mapped to a replacement *function*: every run time read of it
+becomes a call of that function, resolved the same way as a function name -- unqualified, `\`
+qualified, `use const` imported (in place, aliases kept) -- with an unqualified name inside a
+namespace falling back to the global constant unless this unit itself declares (`const X = ...;`)
+or imports a namespaced constant of that name:
+
+```php
+$babel = new Babel(constants: ['PHP_SAPI' => 'phasync\hooked\php_sapi']);
+echo PHP_SAPI;              // echo \phasync\hooked\php_sapi();
+echo \PHP_SAPI;             // echo \phasync\hooked\php_sapi();
+namespace app;
+use const PHP_SAPI as X;
+echo X;                     // echo \phasync\hooked\php_sapi();
+```
+
+Never rewritten: a member name (`$o->PHP_SAPI`, `Foo::PHP_SAPI`), a declaration, a goto label or a
+named argument of the same name, or any position where PHP does not allow a call -- a `const` or
+class constant value, an enum case value, a parameter or property default, an attribute argument. A
+local static variable's initializer is not in that list: since PHP 8.3 it accepts arbitrary
+expressions (the same reason a mapped function or class is already rewritten there). `defined()`
+keeps reading the real constant (always `true` for one that genuinely exists, unaffected by the
+map); `constant()` is not specially handled either, see Limitations.
+
 **eval.** `eval($code)` becomes
 `eval(\phasync\Babel\Runtime::evalCode('<origin of this eval site>', $code))`: eval'd code is
 translated as its own unit. `eval` stays a language construct (the code runs in the caller's
@@ -152,7 +175,7 @@ vendor/bin/phasync-babel --map=map.php FILE              # translation to stdout
 vendor/bin/phasync-babel --map=map.php --out=DIR PATH... # translate trees into DIR
 ```
 
-`map.php` returns `['functions' => [...], 'classes' => [...]]`.
+`map.php` returns `['functions' => [...], 'classes' => [...], 'constants' => [...]]`.
 
 ## Limitations
 
@@ -205,6 +228,12 @@ What is not handled, by design or because it cannot be done from the source alon
 * An exception thrown by `__toString()` of an object passed to `eval()` has an extra
   `Runtime::evalCode` frame in its trace.
 * `constant('__COMPILER_HALT_OFFSET__')` returns the offset of the translated code.
+* `constant('PHP_SAPI')` (or any other mapped name reached through `constant()`) returns the real
+  constant, not the replacement's result; only a bare or qualified name is mapped.
+* A namespace's own declaration (`const X = ...;`) only has to exist somewhere in this unit for an
+  unqualified reference to it, anywhere in that namespace, to be left alone -- not just at reference
+  sites that would actually run after the declaration (PHP itself decides per call, at run time, in
+  whatever order the `const` statements actually executed).
 
 ## Tests
 

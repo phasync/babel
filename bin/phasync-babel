@@ -14,7 +14,7 @@ foreach ([__DIR__ . '/../vendor/autoload.php', __DIR__ . '/../../../autoload.php
 
 $usage = <<<'TXT'
     usage: phasync-babel --map=map.php [--out=DIR] PATH...
-      map.php returns ['functions' => [from => to], 'classes' => [from => to]].
+      map.php returns ['functions' => [from => to], 'classes' => [from => to], 'constants' => [from => to]].
       A single file without --out is translated to stdout. With --out, files (.php) below each PATH are
       written translated to DIR, mirroring the tree. Translations keep the original path as their origin:
       they are meant to be run under that path (e.g. by a stream wrapper), not from DIR.
@@ -27,7 +27,7 @@ if (!isset($opts['map']) || !$paths || (!isset($opts['out']) && (count($paths) >
     exit(2);
 }
 $map = require $opts['map'];
-$babel = new Babel($map['functions'] ?? [], $map['classes'] ?? []);
+$babel = new Babel($map['functions'] ?? [], $map['classes'] ?? [], constants: $map['constants'] ?? []);
 if (!isset($opts['out'])) {
     echo $babel->translate(file_get_contents($paths[0]), realpath($paths[0]));
     exit(0);
